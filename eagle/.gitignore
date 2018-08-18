@@ -1,0 +1,8 @@
+*.scr
+*.s#?
+*.b#?
+*~
+*.rc
+*.csv
+CAD_CAM
+bom
