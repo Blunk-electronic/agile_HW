@@ -2082,14 +2082,14 @@ date: 2015-10-16</description>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MCU_CLK" class="0">
+<net name="KBD_OUT" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="C1"/>
 <wire x1="134.62" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
 <label x="129.54" y="50.8" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MCU_QD" class="0">
+<net name="LED_DRV_IN" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="QD"/>
 <wire x1="167.64" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
@@ -2114,25 +2114,16 @@ date: 2015-10-16</description>
 <busses>
 </busses>
 <nets>
-<net name="MCU_QD" class="0">
-<segment>
-<pinref part="N1" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
-<label x="149.86" y="53.34" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="LED_DRV_IN" class="0">
 <segment>
 <pinref part="N1" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="180.34" y="53.34" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
-</net>
-<net name="MCU_CLK" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
-<label x="149.86" y="45.72" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
+<pinref part="N1" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
+<label x="149.86" y="53.34" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="KBD_OUT" class="0">
@@ -2140,6 +2131,11 @@ date: 2015-10-16</description>
 <pinref part="N2" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
 <label x="180.34" y="45.72" size="1.27" layer="95" font="fixed" xref="yes"/>
+</segment>
+<segment>
+<pinref part="N2" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="149.86" y="45.72" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
