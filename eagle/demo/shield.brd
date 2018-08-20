@@ -922,7 +922,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="64.27" y1="33.89" x2="63.18" y2="32.8" width="0.3" layer="1"/>
 <wire x1="63.18" y1="32.8" x2="56.3" y2="32.8" width="0.3" layer="1"/>
 </signal>
-<signal name="BACKEND_DRV_IN">
+<signal name="LED_DRV_IN">
 <contactref element="X301" pad="2"/>
 <contactref element="N1" pad="1"/>
 <contactref element="R4" pad="2"/>
@@ -933,7 +933,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="52" y1="29" x2="52.8" y2="29.8" width="0.15" layer="1"/>
 <wire x1="52.8" y1="29.8" x2="52.8" y2="32.8" width="0.15" layer="1"/>
 </signal>
-<signal name="BACKEND_KBD_OUT">
+<signal name="KBD_OUT">
 <contactref element="N2" pad="1"/>
 <contactref element="X1" pad="2"/>
 <contactref element="R3" pad="2"/>

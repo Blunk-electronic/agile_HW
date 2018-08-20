@@ -1615,7 +1615,7 @@ date: 2014-10-14</description>
 <label x="170.815" y="86.995" size="1.27" layer="95" font="fixed"/>
 </segment>
 </net>
-<net name="BACKEND_KBD_OUT" class="0">
+<net name="KBD_OUT" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="A1"/>
 <wire x1="170.18" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
@@ -1687,7 +1687,7 @@ date: 2014-10-14</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="BACKEND_KBD_OUT" class="0">
+<net name="KBD_OUT" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>

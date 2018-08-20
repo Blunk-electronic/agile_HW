@@ -2316,7 +2316,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <label x="149.86" y="53.34" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BACKEND_DRV_IN" class="0">
+<net name="LED_DRV_IN" class="0">
 <segment>
 <pinref part="N1" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
@@ -2330,7 +2330,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <label x="149.86" y="45.72" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BACKEND_KBD_OUT" class="0">
+<net name="KBD_OUT" class="0">
 <segment>
 <pinref part="N2" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
@@ -2342,7 +2342,6 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <sheet>
 <description>connector LED driver module</description>
 <plain>
-<text x="139.7" y="60.96" size="1.778" layer="97">?</text>
 </plain>
 <instances>
 <instance part="FRAME_DEVELOPMENT2" gate="G$1" x="0" y="0" smashed="yes">
@@ -2380,7 +2379,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="BACKEND_DRV_IN" class="0">
+<net name="LED_DRV_IN" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="76.2" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
@@ -2434,7 +2433,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="BACKEND_KBD_OUT" class="0">
+<net name="KBD_OUT" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="76.2" x2="200.66" y2="78.74" width="0.1524" layer="91"/>

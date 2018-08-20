@@ -727,7 +727,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="23" y1="18" x2="23" y2="16" width="0.15" layer="1"/>
 <via x="23" y="16" extent="1-16" drill="0.3"/>
 </signal>
-<signal name="BACKEND_KBD_OUT">
+<signal name="KBD_OUT">
 <contactref element="X1" pad="2"/>
 <contactref element="S1" pad="A1"/>
 <contactref element="S1" pad="A"/>
