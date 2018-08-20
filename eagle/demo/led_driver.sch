@@ -1985,6 +1985,7 @@ date: 2014-10-13</description>
 <part name="X1" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
 <attribute name="FUNCTION" value="PWR IN"/>
 </part>
+<part name="FRAME_DEVELOPMENT2" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2114,14 +2115,6 @@ date: 2014-10-13</description>
 <attribute name="FUNCTION" x="127" y="76.2" size="2.54" layer="96" font="fixed" rot="MR180"/>
 </instance>
 <instance part="GND1" gate="1" x="147.32" y="58.42"/>
-<instance part="GND4" gate="1" x="147.32" y="99.06"/>
-<instance part="FD301" gate="FD" x="27.94" y="30.48"/>
-<instance part="FD302" gate="FD" x="27.94" y="20.32"/>
-<instance part="H301" gate="G$1" x="53.34" y="30.48"/>
-<instance part="H302" gate="G$1" x="53.34" y="20.32"/>
-<instance part="X1" gate="G$1" x="137.16" y="106.68" rot="R180">
-<attribute name="FUNCTION" x="144.78" y="114.3" size="2.54" layer="96" font="fixed" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -2140,12 +2133,6 @@ date: 2014-10-13</description>
 <wire x1="147.32" y1="66.04" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="X1" gate="G$1" pin="1"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="139.7" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="104.14" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="FRONTEND_DRV_OUT" class="0">
 <segment>
@@ -2160,10 +2147,39 @@ date: 2014-10-13</description>
 <wire x1="231.14" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="219.075" y="66.675" size="1.27" layer="95" font="fixed"/>
 </segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME_DEVELOPMENT2" gate="G$1" x="0" y="0"/>
+<instance part="GND4" gate="1" x="167.64" y="50.8"/>
+<instance part="FD301" gate="FD" x="35.56" y="30.48"/>
+<instance part="FD302" gate="FD" x="35.56" y="20.32"/>
+<instance part="H301" gate="G$1" x="60.96" y="30.48"/>
+<instance part="H302" gate="G$1" x="60.96" y="20.32"/>
+<instance part="X1" gate="G$1" x="157.48" y="58.42" rot="R180">
+<attribute name="FUNCTION" x="165.1" y="66.04" size="2.54" layer="96" font="fixed" rot="R180"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="160.02" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="55.88" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="P5V" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="151.13" y="107.315" size="1.27" layer="95" font="fixed"/>
+<wire x1="160.02" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="171.45" y="59.055" size="1.27" layer="95" font="fixed"/>
 </segment>
 </net>
 </nets>

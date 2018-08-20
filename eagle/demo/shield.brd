@@ -910,13 +910,13 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <via x="7.8" y="34" extent="1-16" drill="0.3"/>
 <via x="7.8" y="29" extent="1-16" drill="0.3"/>
 </signal>
-<signal name="CORE_CLK">
+<signal name="MCU_CLK">
 <contactref element="X302" pad="2"/>
 <contactref element="N2" pad="2"/>
 <wire x1="64.27" y1="36.43" x2="62.84" y2="35" width="0.15" layer="1"/>
 <wire x1="62.84" y1="35" x2="56.3" y2="35" width="0.15" layer="1"/>
 </signal>
-<signal name="CORE_QD">
+<signal name="MCU_QD">
 <contactref element="X302" pad="4"/>
 <contactref element="N1" pad="2"/>
 <wire x1="64.27" y1="33.89" x2="63.18" y2="32.8" width="0.3" layer="1"/>

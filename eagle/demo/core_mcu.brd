@@ -288,32 +288,6 @@ date: 2013-05-06</description>
 <library name="be_con_jump">
 <description>connectors, jumpers, test points &lt;br&gt;</description>
 <packages>
-<package name="S_NET_CHANGER_0.15MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1" y="0.2" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.47" y1="0.09" x2="0.47" y2="0.09" width="0" layer="41"/>
-<wire x1="-0.47" y1="-0.09" x2="0.47" y2="-0.09" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.15" layer="53"/>
-</package>
-<package name="S_NET_CHANGER_0.3MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1.1" y="0.3" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.44" y1="0.16" x2="0.44" y2="0.16" width="0" layer="41"/>
-<wire x1="-0.44" y1="-0.16" x2="0.44" y2="-0.16" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.3" layer="53"/>
-</package>
 <package name="T_POWER_JACK_SPC4077">
 <description>edited: Mario Blunk / Blunk electronic &lt;br&gt;
 date: 2013-03-21</description>
@@ -848,24 +822,6 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="NAME" x="32.952" y="12.271" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="34.365" y="29.731" size="1" layer="27" font="vector" ratio="13" rot="R270"/>
 </element>
-<element name="N201" library="be_con_jump" package="S_NET_CHANGER_0.15MM" value="NET_CHANGER-S-0.15MM" x="52" y="29" smashed="yes" rot="R180">
-<attribute name="FUNCTION" value="" x="52" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_EXT" value="" x="52" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMMISSIONED" value="2013-08-30" x="52" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="BOM" value="NO" x="52" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_0.15MM" x="52" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UPDATED" value="" x="52" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="53" y="29.8" size="0.5" layer="25" font="vector" ratio="13" rot="R180"/>
-</element>
-<element name="N202" library="be_con_jump" package="S_NET_CHANGER_0.3MM" value="NET_CHANGER-S-0.3MM" x="52" y="27" smashed="yes" rot="R180">
-<attribute name="FUNCTION" value="" x="52" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_EXT" value="" x="52" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMMISSIONED" value="2014-04-09" x="52" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="BOM" value="NO" x="52" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_0.3MM" x="52" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UPDATED" value="" x="52" y="27" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="53.1" y="26.7" size="0.5" layer="25" font="vector" ratio="13" rot="R180"/>
-</element>
 <element name="X301" library="be_con_jump" package="T_POWER_JACK_SPC4077" value="" x="9.98" y="35.35" smashed="yes">
 <attribute name="FUNCTION" value="PWR IN" x="2.2" y="29" size="1" layer="21" font="vector" ratio="15"/>
 <attribute name="PART_CODE_EXT" value="" x="9.98" y="35.35" size="1.778" layer="27" display="off"/>
@@ -962,7 +918,6 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 </signal>
 <signal name="MCU_CLK">
 <contactref element="IC101" pad="9"/>
-<contactref element="N201" pad="2"/>
 <wire x1="38.81" y1="17.92" x2="36.88" y2="17.92" width="0.15" layer="1"/>
 <wire x1="36.88" y1="17.92" x2="36.4" y2="18.4" width="0.15" layer="1"/>
 <wire x1="36.4" y1="18.4" x2="36.4" y2="20.8" width="0.15" layer="1"/>
@@ -971,36 +926,17 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="44.4" y1="21.6" x2="44.8" y2="22" width="0.15" layer="1"/>
 <wire x1="44.8" y1="22" x2="44.8" y2="27" width="0.15" layer="1"/>
 <wire x1="44.8" y1="27" x2="46.8" y2="29" width="0.15" layer="1"/>
-<wire x1="46.8" y1="29" x2="51.7" y2="29" width="0.15" layer="1"/>
+<contactref element="X302" pad="2"/>
+<wire x1="46.8" y1="29" x2="64.27" y2="36.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_QD">
 <contactref element="IC101" pad="10"/>
-<contactref element="N202" pad="2"/>
 <wire x1="38.81" y1="20.46" x2="44.66" y2="20.46" width="0.3" layer="1"/>
 <wire x1="44.66" y1="20.46" x2="45.6" y2="21.4" width="0.3" layer="1"/>
 <wire x1="45.6" y1="21.4" x2="45.6" y2="25.2" width="0.3" layer="1"/>
 <wire x1="45.6" y1="25.2" x2="47.4" y2="27" width="0.3" layer="1"/>
-<wire x1="47.4" y1="27" x2="51.7" y2="27" width="0.3" layer="1"/>
-</signal>
-<signal name="CORE_CLK">
-<contactref element="N201" pad="1"/>
-<contactref element="X302" pad="2"/>
-<wire x1="52.3" y1="29" x2="55" y2="29" width="0.15" layer="1"/>
-<wire x1="55" y1="29" x2="56" y2="30" width="0.15" layer="1"/>
-<wire x1="56" y1="30" x2="56" y2="33.4" width="0.15" layer="1"/>
-<wire x1="56" y1="33.4" x2="57.8" y2="35.2" width="0.15" layer="1"/>
-<wire x1="57.8" y1="35.2" x2="63.04" y2="35.2" width="0.15" layer="1"/>
-<wire x1="63.04" y1="35.2" x2="64.27" y2="36.43" width="0.15" layer="1"/>
-</signal>
-<signal name="CORE_QD">
-<contactref element="N202" pad="1"/>
 <contactref element="X302" pad="4"/>
-<wire x1="52.3" y1="27" x2="55" y2="27" width="0.3" layer="1"/>
-<wire x1="55" y1="27" x2="56.6" y2="28.6" width="0.3" layer="1"/>
-<wire x1="56.6" y1="28.6" x2="56.6" y2="31.4" width="0.3" layer="1"/>
-<wire x1="56.6" y1="31.4" x2="57.6" y2="32.4" width="0.3" layer="1"/>
-<wire x1="57.6" y1="32.4" x2="62.78" y2="32.4" width="0.3" layer="1"/>
-<wire x1="62.78" y1="32.4" x2="64.27" y2="33.89" width="0.3" layer="1"/>
+<wire x1="47.4" y1="27" x2="64.27" y2="33.89" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
