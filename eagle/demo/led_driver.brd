@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,8 +22,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -137,6 +137,7 @@
 <text x="8" y="2" size="1" layer="16" font="vector" ratio="15" rot="MR0">BOT</text>
 <dimension x1="50" y1="50" x2="50" y2="0" x3="65" y3="25" textsize="1.5" textratio="13" layer="47"/>
 <dimension x1="45" y1="45" x2="45" y2="5" x3="60" y3="25" textsize="1.5" textratio="13" layer="47"/>
+<text x="38" y="46" size="1" layer="2" font="vector" ratio="13">L2</text>
 </plain>
 <libraries>
 <library name="be_rcl">
@@ -182,32 +183,6 @@ edited: 2014-01-03</description>
 <library name="be_con_jump">
 <description>connectors, jumpers, test points &lt;br&gt;</description>
 <packages>
-<package name="S_NET_CHANGER_0.15MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1" y="0.2" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.47" y1="0.09" x2="0.47" y2="0.09" width="0" layer="41"/>
-<wire x1="-0.47" y1="-0.09" x2="0.47" y2="-0.09" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.15" layer="53"/>
-</package>
-<package name="S_NET_CHANGER_0.3MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1.1" y="0.3" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.44" y1="0.16" x2="0.44" y2="0.16" width="0" layer="41"/>
-<wire x1="-0.44" y1="-0.16" x2="0.44" y2="-0.16" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.3" layer="53"/>
-</package>
 <package name="T_WIRE_CLAMP_1X2_PITCH_2MM5">
 <description>date; 2014-04-14&lt;br&gt;
 drawn: Mario Blunk / Blunk electronic</description>
@@ -658,24 +633,6 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="NAME" x="13.28" y="16.11" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="VALUE" x="13.28" y="17.41" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
 </element>
-<element name="N201" library="be_con_jump" package="S_NET_CHANGER_0.15MM" value="NET_CHANGER-S-0.15MM" x="8" y="13" smashed="yes" rot="R180">
-<attribute name="FUNCTION" value="" x="8" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_EXT" value="" x="8" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMMISSIONED" value="2013-08-30" x="8" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="BOM" value="NO" x="8" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_0.15MM" x="8" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UPDATED" value="" x="8" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.2" y="13.2" size="0.5" layer="25" font="vector" ratio="13"/>
-</element>
-<element name="N202" library="be_con_jump" package="S_NET_CHANGER_0.3MM" value="NET_CHANGER-S-0.3MM" x="31" y="13" smashed="yes" rot="R180">
-<attribute name="FUNCTION" value="" x="31" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_EXT" value="" x="31" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="COMMISSIONED" value="2014-04-09" x="31" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="BOM" value="NO" x="31" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_0.3MM" x="31" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UPDATED" value="" x="31" y="13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.7" y="12.5" size="0.5" layer="25" font="vector" ratio="13" rot="R180"/>
-</element>
 <element name="R101" library="be_rcl" package="S_0805" value="2k2" x="13" y="13" smashed="yes">
 <attribute name="FUNCTION" value="" x="13" y="13" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="13" y="13" size="1.778" layer="27" display="off"/>
@@ -780,8 +737,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <via x="15" y="20.2" extent="1-16" drill="0.3"/>
 <contactref element="X302" pad="1"/>
 <contactref element="X1" pad="2"/>
-<wire x1="19.75" y1="42.02" x2="43.4" y2="10.62" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="20.2" x2="19.75" y2="42.02" width="0" layer="19" extent="1-1"/>
+<polygon width="0.15" layer="2">
+<vertex x="11" y="50"/>
+<vertex x="50" y="50"/>
+<vertex x="50" y="7"/>
+<vertex x="11" y="7"/>
+</polygon>
 </signal>
 <signal name="GND">
 <contactref element="T101" pad="2"/>
@@ -806,8 +767,9 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 </signal>
 <signal name="DRV_IN">
 <contactref element="R101" pad="1"/>
-<contactref element="N201" pad="1"/>
-<wire x1="8.3" y1="13" x2="12.05" y2="13" width="0.15" layer="1"/>
+<contactref element="X301" pad="2"/>
+<wire x1="5" y1="12.27" x2="5.73" y2="13" width="0.15" layer="1"/>
+<wire x1="5.73" y1="13" x2="12.05" y2="13" width="0.15" layer="1"/>
 </signal>
 <signal name="DRV_B">
 <contactref element="R101" pad="2"/>
@@ -824,21 +786,10 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 </signal>
 <signal name="DRV_OUT">
 <contactref element="R102" pad="2"/>
-<contactref element="N202" pad="2"/>
-<wire x1="27.95" y1="13" x2="30.7" y2="13" width="0.15" layer="1"/>
-</signal>
-<signal name="BACKEND_DRV_IN">
-<contactref element="N201" pad="2"/>
-<contactref element="X301" pad="2"/>
-<wire x1="5" y1="12.27" x2="6.27" y2="12.27" width="0.15" layer="1"/>
-<wire x1="6.27" y1="12.27" x2="7" y2="13" width="0.15" layer="1"/>
-<wire x1="7" y1="13" x2="7.7" y2="13" width="0.15" layer="1"/>
-</signal>
-<signal name="FRONTEND_DRV_OUT">
-<contactref element="N202" pad="1"/>
 <contactref element="X302" pad="2"/>
-<wire x1="31.3" y1="13" x2="43.28" y2="13" width="0.15" layer="1"/>
 <wire x1="43.28" y1="13" x2="43.4" y2="13.12" width="0.15" layer="1"/>
+<wire x1="27.95" y1="13" x2="27.95" y2="13.12" width="0.15" layer="1"/>
+<wire x1="27.95" y1="13.12" x2="43.4" y2="13.12" width="0.15" layer="1"/>
 </signal>
 </signals>
 <errors>
