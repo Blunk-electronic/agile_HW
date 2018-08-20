@@ -1584,6 +1584,7 @@ date: 2014-10-14</description>
 </parts>
 <sheets>
 <sheet>
+<description>push button</description>
 <plain>
 </plain>
 <instances>
@@ -1632,6 +1633,7 @@ date: 2014-10-14</description>
 </nets>
 </sheet>
 <sheet>
+<description>keyboard mdule pwr supply</description>
 <plain>
 </plain>
 <instances>
@@ -1666,6 +1668,7 @@ date: 2014-10-14</description>
 </nets>
 </sheet>
 <sheet>
+<description>keyboard mdule backend</description>
 <plain>
 </plain>
 <instances>

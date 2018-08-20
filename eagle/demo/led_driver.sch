@@ -1736,6 +1736,7 @@ date: 2014-10-13</description>
 </parts>
 <sheets>
 <sheet>
+<description>led driver</description>
 <plain>
 </plain>
 <instances>
@@ -1746,6 +1747,9 @@ date: 2014-10-13</description>
 <instance part="GND3" gate="1" x="162.56" y="50.8"/>
 <instance part="C101" gate="G$1" x="203.2" y="60.96"/>
 <instance part="GND2" gate="1" x="203.2" y="50.8"/>
+<instance part="X302" gate="G$1" x="210.82" y="106.68" rot="MR180">
+<attribute name="FUNCTION" x="203.2" y="114.3" size="2.54" layer="96" font="fixed" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1758,6 +1762,11 @@ date: 2014-10-13</description>
 <wire x1="203.2" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="63.5" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
 <junction x="203.2" y="66.04"/>
+</segment>
+<segment>
+<pinref part="X302" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<label x="196.215" y="104.775" size="1.27" layer="95" font="fixed"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1800,17 +1809,20 @@ date: 2014-10-13</description>
 <wire x1="162.56" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="172.72" y="81.28" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
+<segment>
+<pinref part="X302" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<label x="195.58" y="106.68" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
 <sheet>
+<description>led module backend</description>
 <plain>
 </plain>
 <instances>
 <instance part="FRAME_DEVELOPMENT1" gate="G$1" x="0" y="0"/>
-<instance part="X302" gate="G$1" x="233.68" y="68.58" rot="MR180">
-<attribute name="FUNCTION" x="226.06" y="76.2" size="2.54" layer="96" font="fixed" rot="MR180"/>
-</instance>
 <instance part="X301" gate="G$1" x="134.62" y="66.04" rot="MR180">
 <attribute name="FUNCTION" x="127" y="76.2" size="2.54" layer="96" font="fixed" rot="MR180"/>
 </instance>
@@ -1827,20 +1839,6 @@ date: 2014-10-13</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="LED_DRV_OUT" class="0">
-<segment>
-<pinref part="X302" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
-<label x="218.44" y="68.58" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="P5V" class="0">
-<segment>
-<pinref part="X302" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<label x="219.075" y="66.675" size="1.27" layer="95" font="fixed"/>
-</segment>
-</net>
 <net name="LED_DRV_IN" class="0">
 <segment>
 <pinref part="X301" gate="G$1" pin="2"/>
@@ -1851,6 +1849,7 @@ date: 2014-10-13</description>
 </nets>
 </sheet>
 <sheet>
+<description>led module pwr supply</description>
 <plain>
 </plain>
 <instances>
