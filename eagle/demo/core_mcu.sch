@@ -2438,6 +2438,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 </parts>
 <sheets>
 <sheet>
+<description>MCU</description>
 <plain>
 </plain>
 <instances>
@@ -2494,6 +2495,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 </nets>
 </sheet>
 <sheet>
+<description>core debug</description>
 <plain>
 </plain>
 <instances>
