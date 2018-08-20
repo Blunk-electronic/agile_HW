@@ -9,7 +9,7 @@
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -881,8 +881,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <contactref element="C301" pad="+"/>
 <wire x1="17.4" y1="36.3" x2="16.45" y2="35.35" width="1" layer="1"/>
 <wire x1="16.45" y1="35.35" x2="12.98" y2="35.35" width="1" layer="1"/>
-<wire x1="39.2" y1="33.4" x2="38.81" y2="30.62" width="0" layer="19" extent="1-1"/>
-<wire x1="17.4" y1="36.3" x2="37.95" y2="34" width="0" layer="19" extent="1-1"/>
+<polygon width="0.15" layer="2">
+<vertex x="12" y="40"/>
+<vertex x="42" y="40"/>
+<vertex x="42" y="28"/>
+<vertex x="12" y="28"/>
+</polygon>
 </signal>
 <signal name="GND">
 <contactref element="C101" pad="2"/>
@@ -925,18 +929,22 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="37.2" y1="21.6" x2="44.4" y2="21.6" width="0.15" layer="1"/>
 <wire x1="44.4" y1="21.6" x2="44.8" y2="22" width="0.15" layer="1"/>
 <wire x1="44.8" y1="22" x2="44.8" y2="27" width="0.15" layer="1"/>
-<wire x1="44.8" y1="27" x2="46.8" y2="29" width="0.15" layer="1"/>
 <contactref element="X302" pad="2"/>
-<wire x1="46.8" y1="29" x2="64.27" y2="36.43" width="0" layer="19" extent="1-1"/>
+<wire x1="44.8" y1="27" x2="53" y2="35.2" width="0.15" layer="1"/>
+<wire x1="53" y1="35.2" x2="63.2" y2="35.2" width="0.15" layer="1"/>
+<wire x1="63.2" y1="35.2" x2="64.27" y2="36.27" width="0.15" layer="1"/>
+<wire x1="64.27" y1="36.27" x2="64.27" y2="36.43" width="0.15" layer="1"/>
 </signal>
 <signal name="MCU_QD">
 <contactref element="IC101" pad="10"/>
 <wire x1="38.81" y1="20.46" x2="44.66" y2="20.46" width="0.3" layer="1"/>
 <wire x1="44.66" y1="20.46" x2="45.6" y2="21.4" width="0.3" layer="1"/>
 <wire x1="45.6" y1="21.4" x2="45.6" y2="25.2" width="0.3" layer="1"/>
-<wire x1="45.6" y1="25.2" x2="47.4" y2="27" width="0.3" layer="1"/>
 <contactref element="X302" pad="4"/>
-<wire x1="47.4" y1="27" x2="64.27" y2="33.89" width="0" layer="19" extent="1-1"/>
+<wire x1="45.6" y1="25.2" x2="53" y2="32.6" width="0.3" layer="1"/>
+<wire x1="53" y1="32.6" x2="63" y2="32.6" width="0.3" layer="1"/>
+<wire x1="63" y1="32.6" x2="64.27" y2="33.87" width="0.3" layer="1"/>
+<wire x1="64.27" y1="33.87" x2="64.27" y2="33.89" width="0.3" layer="1"/>
 </signal>
 </signals>
 <errors>
