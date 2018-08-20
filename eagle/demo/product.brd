@@ -180,35 +180,54 @@ edited: 2014-01-03</description>
 <library name="be_logic">
 <description>discrete logic ICs</description>
 <packages>
-<package name="T_NDIP14">
+<package name="S_SO14">
 <description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
 date: 2013-05-06</description>
-<wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.15" layer="51"/>
-<wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.15" layer="51"/>
-<wire x1="8.89" y1="2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-7.62" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="2" x="-5.08" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="3" x="-2.54" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="4" x="0" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="5" x="2.54" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="6" x="5.08" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="7" x="7.62" y="-3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="8" x="7.62" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="9" x="5.08" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="10" x="2.54" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="11" x="0" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="12" x="-2.54" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="13" x="-5.08" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<pad name="14" x="-7.62" y="3.81" drill="0.8" shape="long" rot="R90"/>
-<text x="-9.271" y="-3.048" size="1" layer="25" font="vector" ratio="13" rot="R90">&gt;NAME</text>
-<text x="-6.731" y="-0.635" size="1" layer="27" font="vector" ratio="13">&gt;VALUE</text>
-<wire x1="-9.5" y1="5" x2="9.5" y2="5" width="0.15" layer="39"/>
-<wire x1="9.5" y1="5" x2="9.5" y2="-5" width="0.15" layer="39"/>
-<wire x1="9.5" y1="-5" x2="-9.5" y2="-5" width="0.15" layer="39"/>
-<wire x1="-9.5" y1="-5" x2="-9.5" y2="5" width="0.15" layer="39"/>
+<wire x1="4.064" y1="1.8558" x2="-4.064" y2="1.8558" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.8558" x2="4.445" y2="-1.4748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.445" y1="1.4748" x2="-4.064" y2="1.8558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.064" y1="1.8558" x2="4.445" y2="1.4748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.445" y1="-1.4748" x2="-4.064" y2="-1.8558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.064" y1="-1.8558" x2="4.064" y2="-1.8558" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.4748" x2="4.445" y2="1.4748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.4748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.4748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
+<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
+<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
+<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
+<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
+<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-3.5" y="-0.5" size="1" layer="27" font="vector" ratio="13">&gt;VALUE</text>
+<text x="-5" y="-2" size="1" layer="25" font="vector" ratio="13" rot="R90">&gt;NAME</text>
+<wire x1="-5" y1="3.5" x2="5" y2="3.5" width="0.15" layer="39"/>
+<wire x1="5" y1="3.5" x2="5" y2="-3.5" width="0.15" layer="39"/>
+<wire x1="5" y1="-3.5" x2="-5" y2="-3.5" width="0.15" layer="39"/>
+<wire x1="-5" y1="-3.5" x2="-5" y2="3.5" width="0.15" layer="39"/>
 </package>
 </packages>
 </library>
@@ -593,13 +612,13 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="COMMISSIONED" value="2013-08-30" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C101" library="be_rcl" package="S_0805" value="100n" x="47.76" y="6.91">
-<attribute name="UPDATED" value="" x="47.76" y="6.91" size="1.778" layer="27" display="off"/>
-<attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_" x="47.76" y="6.91" size="1.778" layer="27" display="off"/>
-<attribute name="BOM" value="YES" x="47.76" y="6.91" size="1.778" layer="27" display="off"/>
-<attribute name="FUNCTION" value="" x="47.76" y="6.91" size="1.778" layer="27" display="off"/>
-<attribute name="COMMISSIONED" value="2013-08-30" x="47.76" y="6.91" size="1.778" layer="27" display="off"/>
-<attribute name="PART_CODE_EXT" value="" x="47.76" y="6.91" size="1.778" layer="27" display="off"/>
+<element name="C101" library="be_rcl" package="S_0805" value="100n" x="47.36" y="11.91">
+<attribute name="UPDATED" value="" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="YES" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
+<attribute name="FUNCTION" value="" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C301" library="be_rcl" package="S_0805" value="100n" x="14" y="33">
 <attribute name="UPDATED" value="" x="14" y="33" size="1.778" layer="27" display="off"/>
@@ -609,12 +628,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="COMMISSIONED" value="2013-08-30" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="14" y="33" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC101" library="be_logic" package="T_NDIP14" value="MCU" x="47.68" y="18.14" rot="R90">
+<element name="IC101" library="be_logic" package="S_SO14" value="MCU" x="47.68" y="18.14" rot="R90">
 <attribute name="UPDATED" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN7495A" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="BOM" value="YES" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_CODE_BEL" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="BOM" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FUNCTION" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="COMMISSIONED" value="2015-05-19" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMISSIONED" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R301" library="be_rcl" package="S_0805" value="4k7" x="9" y="33">
@@ -688,14 +707,17 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <vertex x="80" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<wire x1="46.81" y1="6.91" x2="46.72" y2="7" width="0.15" layer="1"/>
-<wire x1="46.72" y1="7" x2="45.6" y2="7" width="0.15" layer="1"/>
-<via x="45.6" y="7" extent="1-16" drill="0.3"/>
+<wire x1="46.41" y1="11.91" x2="46.32" y2="12" width="0.15" layer="1"/>
+<wire x1="46.32" y1="12" x2="45.2" y2="12" width="0.15" layer="1"/>
+<via x="45.2" y="12" extent="1-16" drill="0.3"/>
 <wire x1="8.05" y1="33" x2="6.6" y2="33" width="0.15" layer="1"/>
 <via x="6.6" y="33" extent="1-16" drill="0.3"/>
 <wire x1="11.5" y1="15" x2="11.4" y2="14.9" width="0.15" layer="1"/>
 <wire x1="11.4" y1="14.9" x2="11.4" y2="12.8" width="0.15" layer="1"/>
 <via x="11.4" y="12.8" extent="1-16" drill="0.3"/>
+<wire x1="44.6066" y1="14.33" x2="44.5366" y2="14.4" width="0.15" layer="1"/>
+<wire x1="44.5366" y1="14.4" x2="43" y2="14.4" width="0.15" layer="1"/>
+<via x="43" y="14.4" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="GND">
 <contactref element="C101" pad="2"/>
@@ -710,9 +732,9 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <vertex x="80" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<wire x1="48.71" y1="6.91" x2="48.8" y2="7" width="0.15" layer="1"/>
-<wire x1="48.8" y1="7" x2="50" y2="7" width="0.15" layer="1"/>
-<via x="50" y="7" extent="1-16" drill="0.3"/>
+<wire x1="48.31" y1="11.91" x2="48.4" y2="12" width="0.15" layer="1"/>
+<wire x1="48.4" y1="12" x2="49.6" y2="12" width="0.15" layer="1"/>
+<via x="49.6" y="12" extent="1-16" drill="0.3"/>
 <wire x1="6.5" y1="15" x2="6.3" y2="15.2" width="0.15" layer="1"/>
 <wire x1="6.3" y1="15.2" x2="4.4" y2="15.2" width="0.15" layer="1"/>
 <via x="4.4" y="15.2" extent="1-16" drill="0.3"/>
@@ -721,29 +743,32 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <via x="23.2" y="12.6" extent="1-16" drill="0.3"/>
 <wire x1="14.95" y1="33" x2="16.4" y2="33" width="0.15" layer="1"/>
 <via x="16.4" y="33" extent="1-16" drill="0.3"/>
+<wire x1="50.7534" y1="21.95" x2="50.8034" y2="22" width="0.15" layer="1"/>
+<wire x1="50.8034" y1="22" x2="52.4" y2="22" width="0.15" layer="1"/>
+<via x="52.4" y="22" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="KBD_OUT">
 <contactref element="IC101" pad="9"/>
 <contactref element="S301" pad="A"/>
 <contactref element="S301" pad="A1"/>
-<wire x1="41" y1="26" x2="43.5" y2="23.5" width="0.15" layer="1"/>
-<wire x1="41" y1="41" x2="41" y2="26" width="0.15" layer="1"/>
+<wire x1="41" y1="41" x2="41" y2="22" width="0.15" layer="1"/>
 <wire x1="12" y1="41" x2="41" y2="41" width="0.15" layer="1"/>
 <wire x1="11.5" y1="40.5" x2="12" y2="41" width="0.15" layer="1"/>
-<wire x1="43.5" y1="23.5" x2="43.87" y2="23.22" width="0.15" layer="1"/>
 <wire x1="11.5" y1="40.5" x2="11.35" y2="40.48" width="0.15" layer="1"/>
 <wire x1="11" y1="40.5" x2="5" y2="40.5" width="0.15" layer="1"/>
 <wire x1="5" y1="40.5" x2="4.55" y2="40.48" width="0.15" layer="1"/>
 <wire x1="11" y1="40.5" x2="11.35" y2="40.48" width="0.15" layer="1"/>
+<wire x1="41" y1="22" x2="42.32" y2="20.68" width="0.15" layer="1"/>
+<wire x1="42.32" y1="20.68" x2="44.6066" y2="20.68" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_DRV_IN">
 <contactref element="IC101" pad="10"/>
 <contactref element="R201" pad="1"/>
 <wire x1="31" y1="19" x2="21" y2="9" width="0.15" layer="1"/>
 <wire x1="42" y1="19" x2="31" y2="19" width="0.15" layer="1"/>
-<wire x1="43.5" y1="20.5" x2="42" y2="19" width="0.15" layer="1"/>
 <wire x1="21" y1="9" x2="20.95" y2="9" width="0.15" layer="1"/>
-<wire x1="43.5" y1="20.5" x2="43.87" y2="20.68" width="0.15" layer="1"/>
+<wire x1="42" y1="19" x2="42.41" y2="19.41" width="0.15" layer="1"/>
+<wire x1="42.41" y1="19.41" x2="44.6066" y2="19.41" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_DRV_B">
 <contactref element="R201" pad="2"/>
