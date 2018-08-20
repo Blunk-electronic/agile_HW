@@ -133,7 +133,8 @@
 <wire x1="60" y1="40" x2="60" y2="50" width="0" layer="20"/>
 <wire x1="60" y1="50" x2="0" y2="50" width="0" layer="20"/>
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
-<circle x="30" y="30" radius="10" width="0.15" layer="54"/>
+<circle x="30" y="30" radius="10" width="0.15" layer="20"/>
+<text x="21.4" y="45.2" size="1.5" layer="21" font="vector" ratio="13">LIGHT SAVER</text>
 </plain>
 <libraries>
 <library name="be_rcl">
@@ -492,10 +493,10 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <param name="RoutingGrid" value="50mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
+<param name="TopRouterVariant" value="0"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
-<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.1" value="-"/>
+<param name="PrefDir.2" value="a"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
 <param name="PrefDir.5" value="0"/>
@@ -508,8 +509,8 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <param name="PrefDir.12" value="0"/>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
-<param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.15" value="a"/>
+<param name="PrefDir.16" value="|"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -725,37 +726,59 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <contactref element="IC101" pad="9"/>
 <contactref element="S301" pad="A"/>
 <contactref element="S301" pad="A1"/>
-<wire x1="11.35" y1="40.48" x2="43.87" y2="23.22" width="0" layer="19" extent="1-1"/>
-<wire x1="4.55" y1="40.48" x2="11.35" y2="40.48" width="0" layer="19" extent="1-1"/>
+<wire x1="41" y1="26" x2="43.5" y2="23.5" width="0.15" layer="1"/>
+<wire x1="41" y1="41" x2="41" y2="26" width="0.15" layer="1"/>
+<wire x1="12" y1="41" x2="41" y2="41" width="0.15" layer="1"/>
+<wire x1="11.5" y1="40.5" x2="12" y2="41" width="0.15" layer="1"/>
+<wire x1="43.5" y1="23.5" x2="43.87" y2="23.22" width="0.15" layer="1"/>
+<wire x1="11.5" y1="40.5" x2="11.35" y2="40.48" width="0.15" layer="1"/>
+<wire x1="11" y1="40.5" x2="5" y2="40.5" width="0.15" layer="1"/>
+<wire x1="5" y1="40.5" x2="4.55" y2="40.48" width="0.15" layer="1"/>
+<wire x1="11" y1="40.5" x2="11.35" y2="40.48" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_DRV_IN">
 <contactref element="IC101" pad="10"/>
 <contactref element="R201" pad="1"/>
-<wire x1="20.95" y1="9" x2="43.87" y2="20.68" width="0" layer="19" extent="1-1"/>
+<wire x1="31" y1="19" x2="21" y2="9" width="0.15" layer="1"/>
+<wire x1="42" y1="19" x2="31" y2="19" width="0.15" layer="1"/>
+<wire x1="43.5" y1="20.5" x2="42" y2="19" width="0.15" layer="1"/>
+<wire x1="21" y1="9" x2="20.95" y2="9" width="0.15" layer="1"/>
+<wire x1="43.5" y1="20.5" x2="43.87" y2="20.68" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_DRV_B">
 <contactref element="R201" pad="2"/>
 <contactref element="T201" pad="1"/>
-<wire x1="19.05" y1="9" x2="20.05" y2="12.9" width="0" layer="19" extent="1-1"/>
+<wire x1="20" y1="9" x2="20" y2="12.5" width="0.15" layer="1"/>
+<wire x1="19.05" y1="9" x2="20" y2="9" width="0.15" layer="1"/>
+<wire x1="20" y1="12.5" x2="20.05" y2="12.9" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_DRV_C">
 <contactref element="T201" pad="3"/>
 <contactref element="R202" pad="1"/>
-<wire x1="16.91" y1="15.43" x2="21" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="15" x2="21" y2="15" width="0.15" layer="1"/>
+<wire x1="21" y1="15" x2="21" y2="15.1" width="0.15" layer="1"/>
+<wire x1="17" y1="15" x2="16.91" y2="15.43" width="0.15" layer="1"/>
 </signal>
 <signal name="LED_DRV_OUT">
 <contactref element="R202" pad="2"/>
 <contactref element="X201" pad="2"/>
-<wire x1="7.98" y1="19.75" x2="16.91" y2="13.53" width="0" layer="19" extent="1-1"/>
+<wire x1="11" y1="19.5" x2="16.5" y2="14" width="0.15" layer="1"/>
+<wire x1="8" y1="19.5" x2="11" y2="19.5" width="0.15" layer="1"/>
+<wire x1="16.5" y1="14" x2="16.91" y2="13.53" width="0.15" layer="1"/>
+<wire x1="8" y1="19.5" x2="7.98" y2="19.75" width="0.15" layer="1"/>
 </signal>
 <signal name="KBD_RC">
 <contactref element="R301" pad="2"/>
 <contactref element="C301" pad="1"/>
 <contactref element="S301" pad="B"/>
 <contactref element="S301" pad="B1"/>
-<wire x1="9.95" y1="33" x2="11.35" y2="36.48" width="0" layer="19" extent="1-1"/>
-<wire x1="13.05" y1="33" x2="9.95" y2="33" width="0" layer="19" extent="1-1"/>
-<wire x1="4.55" y1="36.48" x2="9.95" y2="33" width="0" layer="19" extent="1-1"/>
+<wire x1="13.05" y1="33" x2="11.5" y2="33" width="0.15" layer="1"/>
+<wire x1="11.5" y1="33" x2="9.95" y2="33" width="0.15" layer="1"/>
+<wire x1="11.5" y1="36" x2="11.5" y2="33" width="0.15" layer="1"/>
+<wire x1="11.5" y1="36" x2="11.35" y2="36.48" width="0.15" layer="1"/>
+<wire x1="11" y1="36.5" x2="5" y2="36.5" width="0.15" layer="1"/>
+<wire x1="5" y1="36.5" x2="4.55" y2="36.48" width="0.15" layer="1"/>
+<wire x1="11" y1="36.5" x2="11.35" y2="36.48" width="0.15" layer="1"/>
 </signal>
 </signals>
 </board>
