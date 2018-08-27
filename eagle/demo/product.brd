@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.2" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.2" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -604,93 +604,114 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 </pass>
 </autorouter>
 <elements>
-<element name="C201" library="be_rcl" package="S_6032" value="100n" x="9" y="15" rot="R180">
+<element name="C201" library="be_rcl" package="S_6032" value="100n" x="9" y="15" smashed="yes" rot="R180">
 <attribute name="UPDATED" value="" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_BEL" value="C_PAC_S_6032_VAL_" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="YES" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FUNCTION" value="" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="9" y="15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="11.5" y="11.7" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="VALUE" x="11.5" y="13" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
 </element>
-<element name="C101" library="be_rcl" package="S_0805" value="100n" x="47.36" y="11.91">
+<element name="C101" library="be_rcl" package="S_0805" value="100n" x="47.36" y="11.91" smashed="yes">
 <attribute name="UPDATED" value="" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="YES" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
 <attribute name="FUNCTION" value="" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="47.36" y="11.91" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.36" y="9.41" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="45.36" y="7.91" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="C301" library="be_rcl" package="S_0805" value="100n" x="14" y="33">
+<element name="C301" library="be_rcl" package="S_0805" value="100n" x="14" y="33" smashed="yes">
 <attribute name="UPDATED" value="" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="YES" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="FUNCTION" value="" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="14" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="14" y="33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12" y="30.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="12" y="29" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="IC101" library="be_logic" package="S_SO14" value="MCU" x="47.68" y="18.14" rot="R90">
+<element name="IC101" library="be_logic" package="S_SO14" value="MCU" x="47.68" y="18.14" smashed="yes" rot="R90">
 <attribute name="UPDATED" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_CODE_BEL" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FUNCTION" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COMMISSIONED" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="47.68" y="18.14" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="48.18" y="14.64" size="1" layer="27" font="vector" ratio="13" rot="R90"/>
+<attribute name="NAME" x="49.68" y="24.14" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
 </element>
-<element name="R301" library="be_rcl" package="S_0805" value="4k7" x="9" y="33">
+<element name="R301" library="be_rcl" package="S_0805" value="4k7" x="9" y="33" smashed="yes">
 <attribute name="UPDATED" value="" x="9" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="9" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="YES" x="9" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="FUNCTION" value="" x="9" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="9" y="33" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="9" y="33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7" y="30.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="7" y="29" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="R201" library="be_rcl" package="S_0805" value="2k2" x="20" y="9" rot="R180">
+<element name="R201" library="be_rcl" package="S_0805" value="2k2" x="20" y="9" smashed="yes" rot="R180">
 <attribute name="UPDATED" value="" x="20" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="20" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="YES" x="20" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="FUNCTION" value="" x="20" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="20" y="9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="20" y="9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="22" y="11.5" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="VALUE" x="22" y="13" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
 </element>
-<element name="R202" library="be_rcl" package="S_0805" value="100" x="16.91" y="14.48" rot="R270">
+<element name="R202" library="be_rcl" package="S_0805" value="100" x="16.91" y="14.48" smashed="yes" rot="R270">
 <attribute name="UPDATED" value="" x="16.91" y="14.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="16.91" y="14.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="16.91" y="14.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FUNCTION" value="" x="16.91" y="14.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="16.91" y="14.48" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="16.91" y="14.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="14.41" y="16.48" size="1" layer="25" font="vector" ratio="13" rot="R270"/>
+<attribute name="VALUE" x="12.91" y="16.48" size="1" layer="27" font="vector" ratio="13" rot="R270"/>
 </element>
-<element name="S301" library="be_switch" package="S_PUSH_BUTTON_6X6" value="" x="7.95" y="38.48">
+<element name="S301" library="be_switch" package="S_PUSH_BUTTON_6X6" value="" x="7.95" y="38.48" smashed="yes">
 <attribute name="UPDATED" value="" x="7.95" y="38.48" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_BEL" value="S_PAC_S_PUSH_BUTTON_6X6mm" x="7.95" y="38.48" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="YES" x="7.95" y="38.48" size="1.778" layer="27" display="off"/>
 <attribute name="FUNCTION" value="" x="7.95" y="38.48" size="1.778" layer="27" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="7.95" y="38.48" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="7.95" y="38.48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.95" y="42.48" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="4.95" y="41.98" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="T201" library="be_transistor" package="S_SOT23" value="BC548C" x="21" y="14">
+<element name="T201" library="be_transistor" package="S_SOT23" value="BC548C" x="21" y="14" smashed="yes">
 <attribute name="UPDATED" value="" x="21" y="14" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_BEL" value="T_PAC_S_SOT23_VAL_" x="21" y="14" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="YES" x="21" y="14" size="1.778" layer="27" display="off"/>
 <attribute name="FUNCTION" value="" x="21" y="14" size="1.778" layer="27" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="21" y="14" size="1.778" layer="27" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="21" y="14" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="23" y="14.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="23" y="13" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="X201" library="be_con_jump" package="T_WIRE_CLAMP_1X2_PITCH_2MM5" value="CLAMP_1X2-T-2.5MM" x="8" y="21" rot="R270">
+<element name="X201" library="be_con_jump" package="T_WIRE_CLAMP_1X2_PITCH_2MM5" value="CLAMP_1X2-T-2.5MM" x="8" y="21" smashed="yes" rot="R270">
 <attribute name="UPDATED" value="" x="8" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_BEL" value="X_PAC_T_CLAMP_1X2_PITCH_2mm5" x="8" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="8" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="FUNCTION" value="LED DRV OUT" x="8" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2014-04-14" x="8" y="21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="8" y="21" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="5.25" y="24.25" size="1" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="X401" library="be_con_jump" package="T_POWER_JACK_SPC4077" value="" x="72" y="8" rot="R180">
+<element name="X401" library="be_con_jump" package="T_POWER_JACK_SPC4077" value="" x="72" y="8" smashed="yes" rot="R180">
 <attribute name="UPDATED" value="" x="72" y="8" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="PART_CODE_BEL" value="X_PAC_T_POWER_JACK_SPC4077" x="72" y="8" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="BOM" value="YES" x="72" y="8" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="FUNCTION" value="" x="72" y="8" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="72" y="8" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="72" y="8" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
+<attribute name="NAME" x="76.5" y="2.5" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="VALUE" x="82.5" y="3" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
 </element>
 </elements>
 <signals>
