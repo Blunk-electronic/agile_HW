@@ -4,5 +4,6 @@
 *~
 *.rc
 *.csv
+*.pro
 CAD_CAM
 bom
