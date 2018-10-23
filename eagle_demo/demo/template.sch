@@ -274,74 +274,6 @@ NOTE: layer 100 used for this frame !</description>
 <text x="116.14" y="19" size="1.27" layer="100" font="fixed">Status:</text>
 <text x="254" y="35.56" size="1.27" layer="100" font="fixed" align="bottom-right">Copyright(C) Blunk electronic</text>
 </symbol>
-<symbol name="A4_LANDSCAPE_NET_CHANGERS">
-<description>&lt;b&gt;A4 landscape&lt;/b&gt; drawing frame symbol&lt;br /&gt;
-to be used for net changers pages ONLY ! (see doc field)&lt;br /&gt;
-&lt;br /&gt;
-&lt;u&gt;NOTE:&lt;/u&gt; &lt;b&gt;layer 101&lt;/b&gt; used for this frame !</description>
-<wire x1="115.68" y1="3.84" x2="115.68" y2="9" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="9" x2="115.68" y2="18" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="18" x2="115.68" y2="22" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="22" x2="115.68" y2="26" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="26" x2="115.68" y2="34" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="34" x2="129.68" y2="34" width="0.1016" layer="101"/>
-<text x="132.08" y="5" size="1.778" layer="101" font="fixed">&gt;DRAWING_NAME</text>
-<text x="212.04" y="10" size="1.778" layer="101" font="fixed">&gt;SHEET</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="101"/>
-<text x="201.84" y="32" size="1.27" layer="101" font="fixed">Size:</text>
-<text x="206.38" y="28" size="2.54" layer="101" font="fixed" align="bottom-center">A4</text>
-<text x="132.08" y="32" size="1.27" layer="101" font="fixed">Drawing Number:</text>
-<text x="201.84" y="23" size="1.27" layer="101" font="fixed">Drawn:</text>
-<text x="116.14" y="10" size="1.27" layer="101" font="fixed">Description:</text>
-<text x="116.14" y="5" size="1.27" layer="101" font="fixed">Filename:</text>
-<wire x1="129.68" y1="34" x2="201.38" y2="34" width="0.1016" layer="101"/>
-<wire x1="201.38" y1="34" x2="211.38" y2="34" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="34" x2="256.54" y2="34" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="26" x2="129.68" y2="26" width="0.1016" layer="101"/>
-<wire x1="129.68" y1="26" x2="201.38" y2="26" width="0.1016" layer="101"/>
-<wire x1="201.38" y1="26" x2="211.38" y2="26" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="22" x2="256.54" y2="22" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="18" x2="256.54" y2="18" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="9" x2="211.38" y2="9" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="9" x2="256.54" y2="9" width="0.1016" layer="101"/>
-<wire x1="129.68" y1="34" x2="129.68" y2="26" width="0.1016" layer="101"/>
-<wire x1="129.68" y1="26" x2="129.68" y2="3.84" width="0.1016" layer="101"/>
-<text x="116.14" y="23" size="1.27" layer="101" font="fixed">Project:</text>
-<wire x1="201.38" y1="26" x2="201.38" y2="14" width="0.1016" layer="101"/>
-<text x="201.84" y="10" size="1.27" layer="101" font="fixed">Sheet:</text>
-<wire x1="201.38" y1="14" x2="201.38" y2="3.84" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="26" x2="211.38" y2="9" width="0.1016" layer="101"/>
-<wire x1="201.38" y1="14" x2="256.54" y2="14" width="0.1016" layer="101"/>
-<text x="201.84" y="15" size="1.27" layer="101" font="fixed">Approved:</text>
-<text x="212.04" y="15" size="1.27" layer="101" font="fixed">&gt;APPROVED</text>
-<text x="132.08" y="23" size="1.778" layer="101" font="fixed">&gt;PROJECT</text>
-<text x="212.04" y="23" size="1.27" layer="101" font="fixed">&gt;DRAWN</text>
-<text x="233.94" y="28.54" size="3.81" layer="101" font="fixed" align="bottom-center">ROUTING</text>
-<wire x1="211.38" y1="34" x2="211.38" y2="26" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="26" x2="256.54" y2="26" width="0.1016" layer="101"/>
-<polygon width="0.1016" layer="101">
-<vertex x="211.38" y="34"/>
-<vertex x="211.38" y="26"/>
-<vertex x="256.5" y="26"/>
-<vertex x="256.5" y="28"/>
-<vertex x="222" y="28"/>
-<vertex x="222" y="34"/>
-</polygon>
-<polygon width="0.1016" layer="101">
-<vertex x="222" y="34"/>
-<vertex x="222" y="32"/>
-<vertex x="246" y="32"/>
-<vertex x="246" y="28"/>
-<vertex x="256.5" y="28"/>
-<vertex x="256.5" y="34"/>
-</polygon>
-<wire x1="201.38" y1="34" x2="201.38" y2="26" width="0.1016" layer="101"/>
-<text x="201.84" y="19" size="1.27" layer="101" font="fixed">Checked:</text>
-<text x="212.04" y="19" size="1.27" layer="101" font="fixed">&gt;CHECKED</text>
-<text x="116.14" y="34.64" size="1.27" layer="101" font="fixed">last update:</text>
-<text x="132.08" y="34.64" size="1.27" layer="101" font="fixed">&gt;LAST_DATE_TIME</text>
-<text x="132.08" y="27.94" size="1.778" layer="101" font="fixed">&gt;DRAWING_NUMBER</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="A4_LANDSCAPE_PRODUCT" prefix="FRAME_PRODUCT">
@@ -380,27 +312,6 @@ to be used for net changers pages ONLY ! (see doc field)&lt;br /&gt;
 <attribute name="FUNCTION" value="" constant="no"/>
 <attribute name="PART_CODE_BEL" value="" constant="no"/>
 <attribute name="PART_CODE_EXT" value="" constant="no"/>
-<attribute name="UPDATED" value=""/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="A4_LANDSCAPE_NET_CHANGERS" prefix="FRAME_NET_CHANGERS">
-<description>&lt;b&gt;A4 landscape&lt;/b&gt; drawing frame&lt;br&gt;
-to be used for &lt;b&gt;net changers ONLY&lt;/b&gt; (see doc field)</description>
-<gates>
-<gate name="G$1" symbol="A4_LANDSCAPE_NET_CHANGERS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="NO"/>
-<attribute name="COMMISSIONED" value="2013-08-30"/>
-<attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value=""/>
-<attribute name="PART_CODE_EXT" value=""/>
 <attribute name="UPDATED" value=""/>
 </technology>
 </technologies>
@@ -800,11 +711,8 @@ date: 2014-08-13</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME_PRODUCT1" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device="">
-<attribute name="DESCRIPTION" value="LED driver"/>
-</part>
+<part name="FRAME_PRODUCT1" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="FRAME_DEVELOPMENT1" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
-<part name="FRAME_NET_CHANGERS1" library="be_frame" deviceset="A4_LANDSCAPE_NET_CHANGERS" device=""/>
 <part name="FD301" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
 <part name="FD302" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
 <part name="H301" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
@@ -820,17 +728,6 @@ date: 2014-08-13</description>
 </plain>
 <instances>
 <instance part="FRAME_PRODUCT1" gate="G$1" x="0" y="0"/>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<plain>
-</plain>
-<instances>
-<instance part="FRAME_NET_CHANGERS1" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -873,8 +770,8 @@ date: 2014-08-13</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,3,50.8,30.48,H1,MOUNT,,,,"/>
-<approved hash="101,3,50.8,20.32,H2,MOUNT,,,,"/>
+<approved hash="101,2,50.8,30.48,H1,MOUNT,,,,"/>
+<approved hash="101,2,50.8,20.32,H2,MOUNT,,,,"/>
 <approved hash="106,1,203.2,63.5,P5V,,,,,"/>
 </errors>
 </schematic>
