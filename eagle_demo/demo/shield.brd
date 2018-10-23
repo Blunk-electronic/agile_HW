@@ -390,6 +390,30 @@ date: 2018-08-01</description>
 <wire x1="-1.6" y1="-2.8" x2="-1.6" y2="2.8" width="0.1" layer="39"/>
 <text x="1.9" y="-2.7" size="0.8" layer="21" font="vector" ratio="13" rot="R90">1</text>
 </package>
+<package name="T_WIRE_CLAMP_1X2_PITCH_2MM5">
+<description>date; 2014-04-14&lt;br&gt;
+drawn: Mario Blunk / Blunk electronic</description>
+<wire x1="-2.75" y1="-5.5" x2="2.75" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-5.5" x2="-2.75" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="5.5" x2="2.75" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="5.5" x2="-2.75" y2="5.5" width="0.1524" layer="21"/>
+<pad name="1" x="-1.25" y="-0.02" drill="1.3" diameter="1.8" shape="long" rot="R90"/>
+<pad name="2" x="1.25" y="-0.02" drill="1.3" diameter="1.8" shape="long" rot="R90"/>
+<text x="-2.75" y="-6.75" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.75" y="2" size="1.27" layer="51" font="vector" ratio="15">1</text>
+<text x="0.75" y="2" size="1.27" layer="51" font="vector" ratio="15">2</text>
+<wire x1="-3.25" y1="6.25" x2="3.25" y2="6.25" width="0.15" layer="39"/>
+<wire x1="3.25" y1="6.25" x2="3.25" y2="-6" width="0.15" layer="39"/>
+<wire x1="3.25" y1="-6" x2="-3.25" y2="-6" width="0.15" layer="39"/>
+<wire x1="-3.25" y1="-6" x2="-3.25" y2="6.25" width="0.15" layer="39"/>
+<wire x1="-2.75" y1="3.75" x2="2.75" y2="3.75" width="0.1524" layer="51"/>
+<wire x1="1.25" y1="-4.5" x2="1.25" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="1.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="0.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-4.5" x2="-1.25" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-2.5" x2="-0.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-2.5" x2="-1.75" y2="-3" width="0.15" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="be_frame">
@@ -855,6 +879,30 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="NAME" x="8.4" y="30.3" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="11" y="30" size="1" layer="27" font="vector" ratio="13" rot="R90"/>
 </element>
+<element name="X2" library="be_con_jump" package="T_WIRE_CLAMP_1X2_PITCH_2MM5" value="CLAMP_1X2-T-2.5MM" x="-149" y="-67">
+<attribute name="FUNCTION" value="" x="-149" y="-67" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="-149" y="-67" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_CLAMP_1X2_PITCH_2mm5" x="-149" y="-67" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="UPDATED" value="" x="-149" y="-67" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="BOM" value="YES" x="-149" y="-67" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="COMMISSIONED" value="2014-04-14" x="-149" y="-67" size="1" layer="27" font="vector" ratio="13" display="off"/>
+</element>
+<element name="R1" library="be_rcl" package="S_0805" value="330" x="-156" y="-79">
+<attribute name="FUNCTION" value="" x="-164" y="-71" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="-164" y="-71" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="-164" y="-71" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="UPDATED" value="" x="-164" y="-71" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="BOM" value="YES" x="-164" y="-71" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="-164" y="-71" size="1" layer="27" font="vector" ratio="13" display="off"/>
+</element>
+<element name="LED1" library="be_opt" package="S_0805" value="" x="-157" y="-86">
+<attribute name="FUNCTION" value="KBD BUTTON PRESSED" x="-164" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="-164" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_" x="-164" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="UPDATED" value="" x="-164" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="BOM" value="YES" x="-164" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="-164" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -876,6 +924,13 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 </polygon>
 <wire x1="8.95" y1="29" x2="7.8" y2="29" width="0.15" layer="1"/>
 <via x="7.8" y="29" extent="1-16" drill="0.3"/>
+<contactref element="X2" pad="1"/>
+<contactref element="LED1" pad="C"/>
+<wire x1="-150.25" y1="-67.02" x2="-157" y2="-84.95" width="0" layer="19" extent="1-1"/>
+<wire x1="7.8" y1="29" x2="-150.25" y2="-67.02" width="0" layer="19" extent="1-1"/>
+<wire x1="48.73" y1="45" x2="8.95" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="61.73" y1="36.43" x2="48.73" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="61.73" y1="33.89" x2="61.73" y2="36.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_CLK">
 <contactref element="X302" pad="2"/>
@@ -904,6 +959,18 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <contactref element="R4" pad="1"/>
 <contactref element="LED4" pad="A"/>
 <wire x1="15.05" y1="29" x2="11.05" y2="29" width="0.15" layer="1"/>
+</signal>
+<signal name="KBD_OUT">
+<contactref element="X2" pad="2"/>
+<contactref element="N2" pad="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="-147.75" y1="-67.02" x2="-155.05" y2="-79" width="0" layer="19" extent="1-1"/>
+<wire x1="55.7" y1="35" x2="-147.75" y2="-67.02" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SH_KBD_DBG">
+<contactref element="R1" pad="1"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="-156.95" y1="-79" x2="-157" y2="-87.05" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

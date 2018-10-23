@@ -1182,6 +1182,54 @@ date: 2013-11-18</description>
 <wire x1="-1.1" y1="-2.1" x2="-1.1" y2="2.1" width="0.1" layer="39"/>
 <text x="1.9" y="-2.2" size="0.8" layer="21" font="vector" ratio="13" rot="R90">1</text>
 </package>
+<package name="T_WIRE_CLAMP_1X2_PITCH_5MM">
+<description>date; 2014-02-26&lt;br&gt;
+drawn: Mario Blunk / Blunk electronic</description>
+<wire x1="-4.989" y1="-4.211" x2="5.008" y2="-4.211" width="0.1524" layer="21"/>
+<wire x1="-4.989" y1="-4.211" x2="-4.989" y2="4.984" width="0.1524" layer="21"/>
+<wire x1="5.008" y1="4.984" x2="5.008" y2="-4.211" width="0.1524" layer="21"/>
+<wire x1="5.008" y1="4.984" x2="-4.989" y2="4.984" width="0.1524" layer="21"/>
+<pad name="1" x="-2.5" y="-0.02" drill="1.4" diameter="3" shape="long" rot="R90"/>
+<pad name="2" x="2.5" y="-0.02" drill="1.4" diameter="3" shape="long" rot="R90"/>
+<text x="-4" y="-6" size="1" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="-3" y="0.75" size="1.27" layer="51" font="vector" ratio="10">1</text>
+<text x="2" y="0.75" size="1.27" layer="51" font="vector" ratio="10">2</text>
+<wire x1="-5.5" y1="5.75" x2="5.5" y2="5.75" width="0.15" layer="39"/>
+<wire x1="5.5" y1="5.75" x2="5.5" y2="-4.75" width="0.15" layer="39"/>
+<wire x1="5.5" y1="-4.75" x2="-5.5" y2="-4.75" width="0.15" layer="39"/>
+<wire x1="-5.5" y1="-4.75" x2="-5.5" y2="5.75" width="0.15" layer="39"/>
+<wire x1="-4.989" y1="3.289" x2="5.008" y2="3.289" width="0.1524" layer="51"/>
+<wire x1="2.5" y1="-3.25" x2="2.5" y2="-1.25" width="0.15" layer="51"/>
+<wire x1="2.5" y1="-1.25" x2="3" y2="-1.75" width="0.15" layer="51"/>
+<wire x1="2.5" y1="-1.25" x2="2" y2="-1.75" width="0.15" layer="51"/>
+<wire x1="-2.5" y1="-3.25" x2="-2.5" y2="-1.25" width="0.15" layer="51"/>
+<wire x1="-2.5" y1="-1.25" x2="-2" y2="-1.75" width="0.15" layer="51"/>
+<wire x1="-2.5" y1="-1.25" x2="-3" y2="-1.75" width="0.15" layer="51"/>
+</package>
+<package name="T_WIRE_CLAMP_1X2_PITCH_2MM5">
+<description>date; 2014-04-14&lt;br&gt;
+drawn: Mario Blunk / Blunk electronic</description>
+<wire x1="-2.75" y1="-5.5" x2="2.75" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-5.5" x2="-2.75" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="5.5" x2="2.75" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="5.5" x2="-2.75" y2="5.5" width="0.1524" layer="21"/>
+<pad name="1" x="-1.25" y="-0.02" drill="1.3" diameter="1.8" shape="long" rot="R90"/>
+<pad name="2" x="1.25" y="-0.02" drill="1.3" diameter="1.8" shape="long" rot="R90"/>
+<text x="-2.75" y="-6.75" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.75" y="2" size="1.27" layer="51" font="vector" ratio="15">1</text>
+<text x="0.75" y="2" size="1.27" layer="51" font="vector" ratio="15">2</text>
+<wire x1="-3.25" y1="6.25" x2="3.25" y2="6.25" width="0.15" layer="39"/>
+<wire x1="3.25" y1="6.25" x2="3.25" y2="-6" width="0.15" layer="39"/>
+<wire x1="3.25" y1="-6" x2="-3.25" y2="-6" width="0.15" layer="39"/>
+<wire x1="-3.25" y1="-6" x2="-3.25" y2="6.25" width="0.15" layer="39"/>
+<wire x1="-2.75" y1="3.75" x2="2.75" y2="3.75" width="0.1524" layer="51"/>
+<wire x1="1.25" y1="-4.5" x2="1.25" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="1.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="0.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-4.5" x2="-1.25" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-2.5" x2="-0.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-2.5" x2="-1.75" y2="-3" width="0.15" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NET_CHANGER">
@@ -1262,6 +1310,19 @@ date: 2018-08-13</description>
 <pin name="1" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-1.27" y="3.175" size="1.27" layer="95" font="fixed">&gt;NAME</text>
 <wire x1="-1.27" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="FEMALE_1X2">
+<description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2014-08-13</description>
+<wire x1="-6.35" y1="-2.54" x2="3.81" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-5.08" y="5.715" size="1.27" layer="95" font="fixed">&gt;NAME</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas"/>
+<wire x1="0.635" y1="3.175" x2="0.635" y2="1.905" width="0.254" layer="94" curve="180"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.254" layer="94" curve="180"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1600,6 +1661,46 @@ date: 2018-08-13</description>
 <attribute name="COMMISSIONED" value="2013-11-19"/>
 <attribute name="FUNCTION" value="" constant="no"/>
 <attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X1_VERTICAL_2mm" constant="no"/>
+<attribute name="PART_CODE_EXT" value="" constant="no"/>
+<attribute name="UPDATED" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CLAMP_1X2" prefix="X">
+<description>drawn: Mario Blunk / Blunk electronic</description>
+<gates>
+<gate name="G$1" symbol="FEMALE_1X2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-T-5MM" package="T_WIRE_CLAMP_1X2_PITCH_5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="YES"/>
+<attribute name="COMMISSIONED" value="2014-02-26"/>
+<attribute name="FUNCTION" value="" constant="no"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_CLAMP_1X2_PITCH_5mm" constant="no"/>
+<attribute name="PART_CODE_EXT" value="" constant="no"/>
+<attribute name="UPDATED" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="-T-2.5MM" package="T_WIRE_CLAMP_1X2_PITCH_2MM5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="YES"/>
+<attribute name="COMMISSIONED" value="2014-04-14"/>
+<attribute name="FUNCTION" value="" constant="no"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_CLAMP_1X2_PITCH_2mm5" constant="no"/>
 <attribute name="PART_CODE_EXT" value="" constant="no"/>
 <attribute name="UPDATED" value=""/>
 </technology>
@@ -2207,6 +2308,14 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <part name="R4" library="be_rcl" deviceset="R" device="_S_0805" value="330"/>
 <part name="LED4" library="be_opt" deviceset="LED" device="_S_0805"/>
 <part name="GND6" library="be_supply" deviceset="GND" device=""/>
+<part name="FRAME_DEVELOPMENT3" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
+<part name="X2" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM"/>
+<part name="GND2" library="be_supply" deviceset="GND" device=""/>
+<part name="R1" library="be_rcl" deviceset="R" device="_S_0805" value="330"/>
+<part name="LED1" library="be_opt" deviceset="LED" device="_S_0805">
+<attribute name="FUNCTION" value="KBD BUTTON PRESSED"/>
+</part>
+<part name="GND3" library="be_supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2319,6 +2428,13 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <label x="149.86" y="45.72" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="KBD_OUT" class="0">
+<segment>
+<pinref part="N2" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<label x="180.34" y="45.72" size="1.27" layer="95" font="fixed" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -2380,6 +2496,59 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="66.04" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <label x="223.52" y="64.77" size="1.27" layer="95" font="fixed" xref="yes"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<description>connector KBD module</description>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME_DEVELOPMENT3" gate="G$1" x="0" y="0"/>
+<instance part="X2" gate="G$1" x="38.1" y="121.92" rot="R180"/>
+<instance part="GND2" gate="1" x="50.8" y="114.3"/>
+<instance part="R1" gate="G$1" x="55.88" y="83.82" rot="R90"/>
+<instance part="LED1" gate="G$1" x="55.88" y="73.66">
+<attribute name="FUNCTION" x="58.42" y="71.12" size="1.27" layer="96" font="fixed"/>
+</instance>
+<instance part="GND3" gate="1" x="55.88" y="63.5"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="1"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="40.64" y1="119.38" x2="50.8" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="119.38" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="55.88" y1="66.04" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="KBD_OUT" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
+<label x="60.96" y="121.92" size="1.27" layer="95" font="fixed" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="88.9" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="91.44" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
+<label x="36.195" y="92.075" size="1.27" layer="95" font="fixed"/>
+</segment>
+</net>
+<net name="SH_KBD_DBG" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="55.88" y1="78.74" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
+<label x="55.88" y="77.47" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
 </net>
 </nets>
