@@ -817,8 +817,8 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_EXT" value="" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2015-05-19" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN7495A" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="UPDATED" value="" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_x74x95N" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="UPDATED" value="2018-09-16" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="32.952" y="12.271" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="34.365" y="29.731" size="1" layer="27" font="vector" ratio="13" rot="R270"/>
 </element>

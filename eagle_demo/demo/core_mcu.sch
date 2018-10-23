@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,18 +53,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="HEIGHT" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="DEPTH" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="6" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="HEIGHT" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="DEPTH" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -353,9 +353,58 @@ date: 2013-05-06</description>
 <wire x1="9.5" y1="-5" x2="-9.5" y2="-5" width="0.15" layer="39"/>
 <wire x1="-9.5" y1="-5" x2="-9.5" y2="5" width="0.15" layer="39"/>
 </package>
+<package name="S_SO14">
+<description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2013-05-06</description>
+<wire x1="4.064" y1="1.8558" x2="-4.064" y2="1.8558" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.8558" x2="4.445" y2="-1.4748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.445" y1="1.4748" x2="-4.064" y2="1.8558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.064" y1="1.8558" x2="4.445" y2="1.4748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.445" y1="-1.4748" x2="-4.064" y2="-1.8558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.064" y1="-1.8558" x2="4.064" y2="-1.8558" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.4748" x2="4.445" y2="1.4748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.4748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.4748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
+<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
+<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
+<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
+<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
+<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
+<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
+<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
+<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
+<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
+<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+<smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="0" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.27" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="0" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="-1.27" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="-2.54" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-3.5" y="-0.5" size="1" layer="27" font="vector" ratio="13">&gt;VALUE</text>
+<text x="-5" y="-2" size="1" layer="25" font="vector" ratio="13" rot="R90">&gt;NAME</text>
+<wire x1="-5" y1="3.5" x2="5" y2="3.5" width="0.15" layer="39"/>
+<wire x1="5" y1="3.5" x2="5" y2="-3.5" width="0.15" layer="39"/>
+<wire x1="5" y1="-3.5" x2="-5" y2="-3.5" width="0.15" layer="39"/>
+<wire x1="-5" y1="-3.5" x2="-5" y2="3.5" width="0.15" layer="39"/>
+</package>
 </packages>
 <symbols>
-<symbol name="74X95">
+<symbol name="7495">
 <description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
 date: 2013-05-06</description>
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="5.08" width="0.254" layer="94"/>
@@ -420,14 +469,14 @@ date: 2013-05-06</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*95" prefix="IC">
+<deviceset name="7495" prefix="IC">
 <description>edited: Mario Blunk / Blunk electronic</description>
 <gates>
-<gate name="G$1" symbol="74X95" x="2.54" y="-2.54"/>
+<gate name="G$1" symbol="7495" x="2.54" y="-2.54"/>
 <gate name="P" symbol="PWR" x="35.56" y="-2.54" addlevel="request"/>
 </gates>
 <devices>
-<device name="A" package="T_NDIP14">
+<device name="N" package="T_NDIP14">
 <connects>
 <connect gate="G$1" pin="C1" pad="9"/>
 <connect gate="G$1" pin="C2" pad="8"/>
@@ -449,17 +498,37 @@ date: 2013-05-06</description>
 <attribute name="BOM" value="YES"/>
 <attribute name="COMMISSIONED" value="2015-05-19"/>
 <attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN7495A" constant="no"/>
+<attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_x74x95N" constant="no"/>
+<attribute name="PART_CODE_EXT" value="" constant="no"/>
+<attribute name="UPDATED" value="2018-09-16"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="S_SO14">
+<connects>
+<connect gate="G$1" pin="C1" pad="9"/>
+<connect gate="G$1" pin="C2" pad="8"/>
+<connect gate="G$1" pin="DA" pad="2"/>
+<connect gate="G$1" pin="DB" pad="3"/>
+<connect gate="G$1" pin="DC" pad="4"/>
+<connect gate="G$1" pin="DD" pad="5"/>
+<connect gate="G$1" pin="DS" pad="1"/>
+<connect gate="G$1" pin="MC" pad="6"/>
+<connect gate="G$1" pin="QA" pad="13"/>
+<connect gate="G$1" pin="QB" pad="12"/>
+<connect gate="G$1" pin="QC" pad="11"/>
+<connect gate="G$1" pin="QD" pad="10"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value=""/>
+<attribute name="COMMISSIONED" value=""/>
+<attribute name="FUNCTION" value="" constant="no"/>
+<attribute name="PART_CODE_BEL" value="" constant="no"/>
 <attribute name="PART_CODE_EXT" value="" constant="no"/>
 <attribute name="UPDATED" value=""/>
-</technology>
-<technology name="LS">
-<attribute name="BOM" value="YES" constant="no"/>
-<attribute name="COMMISSIONED" value="2015-05-19" constant="no"/>
-<attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN74LS95A" constant="no"/>
-<attribute name="PART_CODE_EXT" value="" constant="no"/>
-<attribute name="UPDATED" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2408,7 +2477,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 <part name="FRAME_PRODUCT1" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device="">
 <attribute name="DESCRIPTION" value="core / MCU"/>
 </part>
-<part name="IC101" library="be_logic" deviceset="74*95" device="A" value="MCU"/>
+<part name="IC101" library="be_logic" deviceset="7495" device="N" value="MCU"/>
 <part name="C101" library="be_rcl" deviceset="C" device="_S_0805" value="100n"/>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
