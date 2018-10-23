@@ -1264,11 +1264,15 @@ date: 2014-10-14</description>
 <part name="X1" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
 <attribute name="FUNCTION" value="PWR IN"/>
 </part>
-<part name="S1" library="be_switch" deviceset="PUSH_BUTTON" device="_S_6X6MM"/>
+<part name="S1" library="be_switch" deviceset="PUSH_BUTTON" device="_S_6X6MM">
+<attribute name="FUNCTION" value="ACTIVATE LIGHT"/>
+</part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
 <part name="R1" library="be_rcl" deviceset="R" device="_S_0805"/>
 <part name="FRAME_DEVELOPMENT2" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
-<part name="X2" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM"/>
+<part name="X2" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
+<attribute name="FUNCTION" value="SHIELD CTRL IN"/>
+</part>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
