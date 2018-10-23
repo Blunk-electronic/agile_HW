@@ -2306,7 +2306,9 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <part name="H3" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
 <part name="H4" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
 <part name="R4" library="be_rcl" deviceset="R" device="_S_0805" value="330"/>
-<part name="LED4" library="be_opt" deviceset="LED" device="_S_0805"/>
+<part name="LED4" library="be_opt" deviceset="LED" device="_S_0805">
+<attribute name="FUNCTION" value="LIGHT ACTIVE"/>
+</part>
 <part name="GND6" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_DEVELOPMENT3" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
 <part name="X2" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM"/>
