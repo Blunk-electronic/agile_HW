@@ -203,74 +203,6 @@ date: 2015-10-16</description>
 <text x="116.14" y="19" size="1.27" layer="94" font="fixed">Status:</text>
 <text x="254" y="35.56" size="1.27" layer="94" font="fixed" align="bottom-right">Copyright(C) Blunk electronic</text>
 </symbol>
-<symbol name="A4_LANDSCAPE_NET_CHANGERS">
-<description>&lt;b&gt;A4 landscape&lt;/b&gt; drawing frame symbol&lt;br /&gt;
-to be used for net changers pages ONLY ! (see doc field)&lt;br /&gt;
-&lt;br /&gt;
-&lt;u&gt;NOTE:&lt;/u&gt; &lt;b&gt;layer 101&lt;/b&gt; used for this frame !</description>
-<wire x1="115.68" y1="3.84" x2="115.68" y2="9" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="9" x2="115.68" y2="18" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="18" x2="115.68" y2="22" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="22" x2="115.68" y2="26" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="26" x2="115.68" y2="34" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="34" x2="129.68" y2="34" width="0.1016" layer="101"/>
-<text x="132.08" y="5" size="1.778" layer="101" font="fixed">&gt;DRAWING_NAME</text>
-<text x="212.04" y="10" size="1.778" layer="101" font="fixed">&gt;SHEET</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="101"/>
-<text x="201.84" y="32" size="1.27" layer="101" font="fixed">Size:</text>
-<text x="206.38" y="28" size="2.54" layer="101" font="fixed" align="bottom-center">A4</text>
-<text x="132.08" y="32" size="1.27" layer="101" font="fixed">Drawing Number:</text>
-<text x="201.84" y="23" size="1.27" layer="101" font="fixed">Drawn:</text>
-<text x="116.14" y="10" size="1.27" layer="101" font="fixed">Description:</text>
-<text x="116.14" y="5" size="1.27" layer="101" font="fixed">Filename:</text>
-<wire x1="129.68" y1="34" x2="201.38" y2="34" width="0.1016" layer="101"/>
-<wire x1="201.38" y1="34" x2="211.38" y2="34" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="34" x2="256.54" y2="34" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="26" x2="129.68" y2="26" width="0.1016" layer="101"/>
-<wire x1="129.68" y1="26" x2="201.38" y2="26" width="0.1016" layer="101"/>
-<wire x1="201.38" y1="26" x2="211.38" y2="26" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="22" x2="256.54" y2="22" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="18" x2="256.54" y2="18" width="0.1016" layer="101"/>
-<wire x1="115.68" y1="9" x2="211.38" y2="9" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="9" x2="256.54" y2="9" width="0.1016" layer="101"/>
-<wire x1="129.68" y1="34" x2="129.68" y2="26" width="0.1016" layer="101"/>
-<wire x1="129.68" y1="26" x2="129.68" y2="3.84" width="0.1016" layer="101"/>
-<text x="116.14" y="23" size="1.27" layer="101" font="fixed">Project:</text>
-<wire x1="201.38" y1="26" x2="201.38" y2="14" width="0.1016" layer="101"/>
-<text x="201.84" y="10" size="1.27" layer="101" font="fixed">Sheet:</text>
-<wire x1="201.38" y1="14" x2="201.38" y2="3.84" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="26" x2="211.38" y2="9" width="0.1016" layer="101"/>
-<wire x1="201.38" y1="14" x2="256.54" y2="14" width="0.1016" layer="101"/>
-<text x="201.84" y="15" size="1.27" layer="101" font="fixed">Approved:</text>
-<text x="212.04" y="15" size="1.27" layer="101" font="fixed">&gt;APPROVED</text>
-<text x="132.08" y="23" size="1.778" layer="101" font="fixed">&gt;PROJECT</text>
-<text x="212.04" y="23" size="1.27" layer="101" font="fixed">&gt;DRAWN</text>
-<text x="233.94" y="28.54" size="3.81" layer="101" font="fixed" align="bottom-center">ROUTING</text>
-<wire x1="211.38" y1="34" x2="211.38" y2="26" width="0.1016" layer="101"/>
-<wire x1="211.38" y1="26" x2="256.54" y2="26" width="0.1016" layer="101"/>
-<polygon width="0.1016" layer="101">
-<vertex x="211.38" y="34"/>
-<vertex x="211.38" y="26"/>
-<vertex x="256.5" y="26"/>
-<vertex x="256.5" y="28"/>
-<vertex x="222" y="28"/>
-<vertex x="222" y="34"/>
-</polygon>
-<polygon width="0.1016" layer="101">
-<vertex x="222" y="34"/>
-<vertex x="222" y="32"/>
-<vertex x="246" y="32"/>
-<vertex x="246" y="28"/>
-<vertex x="256.5" y="28"/>
-<vertex x="256.5" y="34"/>
-</polygon>
-<wire x1="201.38" y1="34" x2="201.38" y2="26" width="0.1016" layer="101"/>
-<text x="201.84" y="19" size="1.27" layer="101" font="fixed">Checked:</text>
-<text x="212.04" y="19" size="1.27" layer="101" font="fixed">&gt;CHECKED</text>
-<text x="116.14" y="34.64" size="1.27" layer="101" font="fixed">last update:</text>
-<text x="132.08" y="34.64" size="1.27" layer="101" font="fixed">&gt;LAST_DATE_TIME</text>
-<text x="132.08" y="27.94" size="1.778" layer="101" font="fixed">&gt;DRAWING_NUMBER</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="A4_LANDSCAPE_PRODUCT" prefix="FRAME_PRODUCT">
@@ -288,27 +220,6 @@ to be used for net changers pages ONLY ! (see doc field)&lt;br /&gt;
 <attribute name="FUNCTION" value="" constant="no"/>
 <attribute name="PART_CODE_BEL" value="" constant="no"/>
 <attribute name="PART_CODE_EXT" value="" constant="no"/>
-<attribute name="UPDATED" value=""/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="A4_LANDSCAPE_NET_CHANGERS" prefix="FRAME_NET_CHANGERS">
-<description>&lt;b&gt;A4 landscape&lt;/b&gt; drawing frame&lt;br&gt;
-to be used for &lt;b&gt;net changers ONLY&lt;/b&gt; (see doc field)</description>
-<gates>
-<gate name="G$1" symbol="A4_LANDSCAPE_NET_CHANGERS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="NO"/>
-<attribute name="COMMISSIONED" value="2013-08-30"/>
-<attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value=""/>
-<attribute name="PART_CODE_EXT" value=""/>
 <attribute name="UPDATED" value=""/>
 </technology>
 </technologies>
@@ -1395,45 +1306,6 @@ date: 2013-03-25</description>
 <library name="be_con_jump">
 <description>connectors, jumpers, test points &lt;br&gt;</description>
 <packages>
-<package name="S_NET_CHANGER_0.15MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1" y="0.2" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.47" y1="0.09" x2="0.47" y2="0.09" width="0" layer="41"/>
-<wire x1="-0.47" y1="-0.09" x2="0.47" y2="-0.09" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.15" layer="53"/>
-</package>
-<package name="S_NET_CHANGER_0.3MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1.1" y="0.3" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.44" y1="0.16" x2="0.44" y2="0.16" width="0" layer="41"/>
-<wire x1="-0.44" y1="-0.16" x2="0.44" y2="-0.16" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.3" layer="53"/>
-</package>
-<package name="S_NET_CHANGER_1MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-13</description>
-<smd name="1" x="-0.6" y="0" dx="1" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.6" y="0" dx="1" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1.1" y="0.6" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-1.04" y1="0.56" x2="1.04" y2="0.56" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="1" layer="53"/>
-<wire x1="-1.04" y1="-0.54" x2="1.04" y2="-0.54" width="0" layer="41"/>
-</package>
 <package name="T_WIRE_CLAMP_1X2_PITCH_5MM">
 <description>date; 2014-02-26&lt;br&gt;
 drawn: Mario Blunk / Blunk electronic</description>
@@ -1484,22 +1356,6 @@ drawn: Mario Blunk / Blunk electronic</description>
 </package>
 </packages>
 <symbols>
-<symbol name="NET_CHANGER">
-<description>net name changer symbol&lt;br&gt;
-used to connect nets with different names&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-date: 2013-06-27&lt;br&gt;
-edited: 2013-07-16 : all fonts changed to "fixed" / Mario Blunk&lt;br&gt;
-edited: 2013-08-19 : pin swap level changed / Mario Blunk&lt;br&gt;
-edited: 2014-02-24 : position of name placeholder and text sized changed / Mario Blunk&lt;br&gt;
-edited: 2014-04-09 : pin names changed to 1 and 2 / Mario Blunk&lt;br&gt;</description>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94" curve="-90"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.1524" layer="94" curve="90"/>
-<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<text x="-1.905" y="0" size="0.762" layer="95" font="fixed">&gt;NAME</text>
-</symbol>
 <symbol name="FEMALE_1X2">
 <description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
 date: 2014-08-13</description>
@@ -1515,62 +1371,6 @@ date: 2014-08-13</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NET_CHANGER" prefix="N">
-<description>drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="NET_CHANGER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-S-0.15MM" package="S_NET_CHANGER_0.15MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="NO"/>
-<attribute name="COMMISSIONED" value="2013-08-30"/>
-<attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_0.15MM" constant="no"/>
-<attribute name="PART_CODE_EXT" value="" constant="no"/>
-<attribute name="UPDATED" value=""/>
-</technology>
-</technologies>
-</device>
-<device name="-S-0.3MM" package="S_NET_CHANGER_0.3MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="NO"/>
-<attribute name="COMMISSIONED" value="2014-04-09"/>
-<attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_0.3MM" constant="no"/>
-<attribute name="PART_CODE_EXT" value="" constant="no"/>
-<attribute name="UPDATED" value=""/>
-</technology>
-</technologies>
-</device>
-<device name="-S-1MM" package="S_NET_CHANGER_1MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="NO"/>
-<attribute name="COMMISSIONED" value="2014-11-13"/>
-<attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value="N_PAC_S_NET_CHANGER_1MM" constant="no"/>
-<attribute name="PART_CODE_EXT" value="" constant="no"/>
-<attribute name="UPDATED" value=""/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CLAMP_1X2" prefix="X">
 <description>drawn: Mario Blunk / Blunk electronic</description>
 <gates>
@@ -2013,12 +1813,6 @@ date: 2015-10-16</description>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
 <part name="U$3" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$4" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="FRAME_NET_CHANGERS1" library="be_frame" deviceset="A4_LANDSCAPE_NET_CHANGERS" device=""/>
-<part name="N1" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
-<part name="U$6" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="U$7" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="N2" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.15MM" value="NET_CHANGER-S-0.15MM"/>
-<part name="U$8" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="FRAME_PRODUCT2" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device="">
 <attribute name="DESCRIPTION" value="LED driver"/>
 </part>
@@ -2082,63 +1876,18 @@ date: 2015-10-16</description>
 <wire x1="208.28" y1="53.34" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MCU_CLK" class="0">
+<net name="KBD_OUT" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="C1"/>
 <wire x1="134.62" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
 <label x="129.54" y="50.8" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MCU_QD" class="0">
+<net name="LED_DRV_IN" class="0">
 <segment>
 <pinref part="IC101" gate="G$1" pin="QD"/>
 <wire x1="167.64" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
 <label x="172.72" y="76.2" size="1.27" layer="95" font="fixed" xref="yes"/>
-</segment>
-</net>
-</nets>
-</sheet>
-<sheet>
-<description>routing</description>
-<plain>
-</plain>
-<instances>
-<instance part="FRAME_NET_CHANGERS1" gate="G$1" x="0" y="0"/>
-<instance part="N1" gate="G$1" x="165.1" y="53.34" rot="MR0"/>
-<instance part="U$6" gate="G$1" x="175.26" y="53.34" rot="R180"/>
-<instance part="U$7" gate="G$1" x="152.4" y="53.34" rot="R180"/>
-<instance part="N2" gate="G$1" x="165.1" y="45.72" rot="MR0"/>
-<instance part="U$8" gate="G$1" x="154.94" y="45.72"/>
-</instances>
-<busses>
-</busses>
-<nets>
-<net name="MCU_QD" class="0">
-<segment>
-<pinref part="N1" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
-<label x="149.86" y="53.34" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LED_DRV_IN" class="0">
-<segment>
-<pinref part="N1" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
-<label x="180.34" y="53.34" size="1.27" layer="95" font="fixed" xref="yes"/>
-</segment>
-</net>
-<net name="MCU_CLK" class="0">
-<segment>
-<pinref part="N2" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
-<label x="149.86" y="45.72" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="KBD_OUT" class="0">
-<segment>
-<pinref part="N2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
-<label x="180.34" y="45.72" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
 </net>
 </nets>
