@@ -287,6 +287,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 <part name="U$5" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$7" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$8" library="be_info" deviceset="ARROW_1" device=""/>
+<part name="U$2" library="be_info" deviceset="ARROW_1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -326,6 +327,18 @@ drawn: Mario Blunk / Blunk electronic</description>
 <wire x1="218.44" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="97"/>
 <text x="226.06" y="119.38" size="1.778" layer="97" font="fixed">to LED</text>
 <wire x1="144.78" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="172.72" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="96.52" x2="218.44" y2="91.44" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="91.44" x2="218.44" y2="83.82" width="0.1524" layer="97"/>
+<wire x1="218.44" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="97"/>
+<wire x1="172.72" y1="83.82" x2="172.72" y2="91.44" width="0.1524" layer="97"/>
+<text x="185.42" y="91.44" size="2.54" layer="97" font="fixed">Keyboard</text>
+<wire x1="172.72" y1="91.44" x2="172.72" y2="96.52" width="0.1524" layer="97"/>
+<wire x1="144.78" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="97"/>
+<wire x1="177.8" y1="109.22" x2="177.8" y2="96.52" width="0.1524" layer="97"/>
+<text x="178.435" y="106.045" size="1.778" layer="97" font="fixed">PWR</text>
+<wire x1="144.78" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME_DEVELOPMENT1" gate="G$1" x="0" y="0"/>
@@ -335,6 +348,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 <instance part="U$5" gate="G$1" x="177.8" y="144.78" rot="R90"/>
 <instance part="U$7" gate="G$1" x="38.1" y="137.16" rot="R90"/>
 <instance part="U$8" gate="G$1" x="223.52" y="121.92" rot="R180"/>
+<instance part="U$2" gate="G$1" x="177.8" y="104.14" rot="R90"/>
 </instances>
 <busses>
 </busses>

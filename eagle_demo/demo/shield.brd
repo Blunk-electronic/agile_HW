@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -137,9 +137,9 @@
 <dimension x1="70" y1="50" x2="70" y2="0" x3="77" y3="25" textsize="2" textratio="15" layer="47"/>
 <dimension x1="0" y1="0" x2="70" y2="0" x3="35" y3="-6" textsize="2" textratio="15" layer="47"/>
 <wire x1="2.8" y1="39.6" x2="20.6" y2="39.6" width="0.15" layer="21" style="shortdash"/>
-<wire x1="20.6" y1="39.6" x2="20.6" y2="24.4" width="0.15" layer="21" style="shortdash"/>
-<wire x1="20.6" y1="24.4" x2="2.6" y2="24.4" width="0.15" layer="21" style="shortdash"/>
-<wire x1="2.6" y1="24.4" x2="2.6" y2="39.6" width="0.15" layer="21" style="shortdash"/>
+<wire x1="20.6" y1="39.6" x2="20.6" y2="16.4" width="0.15" layer="21" style="shortdash"/>
+<wire x1="20.6" y1="16.4" x2="2.6" y2="16.4" width="0.15" layer="21" style="shortdash"/>
+<wire x1="2.6" y1="16.4" x2="2.6" y2="39.6" width="0.15" layer="21" style="shortdash"/>
 <text x="3.4" y="37.8" size="1" layer="21" font="vector" ratio="13">DEBUG</text>
 <dimension x1="5" y1="45" x2="65" y2="45" x3="35" y3="55" textsize="2" textratio="13" layer="47"/>
 <dimension x1="5" y1="5" x2="5" y2="45" x3="-10" y3="25" textsize="2" textratio="13" layer="47"/>
@@ -651,7 +651,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <param name="RoutingGrid" value="50mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
+<param name="TopRouterVariant" value="0"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="a"/>
 <param name="PrefDir.2" value="0"/>
@@ -846,7 +846,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="VALUE" x="14.2" y="26.8" size="1" layer="27" font="vector" ratio="13"/>
 </element>
 <element name="LED4" library="be_opt" package="S_0805" value="" x="10" y="29" smashed="yes" rot="R90">
-<attribute name="FUNCTION" value="" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="FUNCTION" value="LIGHT ACTIVE" x="14" y="33" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
 <attribute name="PART_CODE_EXT" value="" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="BOM" value="YES" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
@@ -854,6 +854,35 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="UPDATED" value="" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="NAME" x="8.4" y="30.3" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="11" y="30" size="1" layer="27" font="vector" ratio="13" rot="R90"/>
+</element>
+<element name="X2" library="be_con_jump" package="T_MALE_2X1_VERTICAL_PITCH_2MM54" value="MALE_2X1-T-VERTICAL" x="31" y="44" smashed="yes" rot="R270">
+<attribute name="FUNCTION" value="KEYBBOARD IN" x="36" y="47" size="1" layer="27" font="vector" ratio="13" rot="SR180"/>
+<attribute name="UPDATED" value="2018-08-01" x="55" y="58" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="55" y="58" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
+<attribute name="BOM" value="YES" x="55" y="58" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="55" y="58" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X1_VERTICAL_PITCH_2mm54" x="55" y="58" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
+<attribute name="NAME" x="29.43" y="41" size="1" layer="25" font="vector" ratio="15"/>
+</element>
+<element name="R1" library="be_rcl" package="S_0805" value="330" x="16" y="22" smashed="yes">
+<attribute name="FUNCTION" value="" x="8" y="30" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="UPDATED" value="" x="8" y="30" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="8" y="30" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="BOM" value="YES" x="8" y="30" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="8" y="30" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="8" y="30" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="NAME" x="14" y="23.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="14.2" y="19.4" size="1" layer="27" font="vector" ratio="13"/>
+</element>
+<element name="LED1" library="be_opt" package="S_0805" value="" x="10" y="22" smashed="yes" rot="R90">
+<attribute name="FUNCTION" value="BOTTON PRESSED" x="4" y="25" size="1" layer="27" font="vector" ratio="13"/>
+<attribute name="UPDATED" value="" x="2" y="15" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="2" y="15" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="BOM" value="YES" x="2" y="15" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="2" y="15" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_" x="2" y="15" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="NAME" x="8" y="23.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="11" y="23" size="1" layer="27" font="vector" ratio="13" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -876,6 +905,11 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 </polygon>
 <wire x1="8.95" y1="29" x2="7.8" y2="29" width="0.15" layer="1"/>
 <via x="7.8" y="29" extent="1-16" drill="0.3"/>
+<contactref element="X2" pad="1"/>
+<contactref element="LED1" pad="C"/>
+<wire x1="9" y1="29" x2="9" y2="22" width="0.15" layer="1"/>
+<wire x1="9" y1="22" x2="8.95" y2="22" width="0.15" layer="1"/>
+<wire x1="9" y1="29" x2="8.95" y2="29" width="0.15" layer="1"/>
 </signal>
 <signal name="MCU_CLK">
 <contactref element="X302" pad="2"/>
@@ -904,6 +938,31 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <contactref element="R4" pad="1"/>
 <contactref element="LED4" pad="A"/>
 <wire x1="15.05" y1="29" x2="11.05" y2="29" width="0.15" layer="1"/>
+</signal>
+<signal name="KBD_OUT">
+<contactref element="X2" pad="2"/>
+<contactref element="R1" pad="2"/>
+<contactref element="N2" pad="1"/>
+<wire x1="16.5" y1="28" x2="16.5" y2="22" width="0.15" layer="1"/>
+<wire x1="16" y1="28" x2="16.5" y2="28" width="0.15" layer="1"/>
+<wire x1="16" y1="42" x2="16" y2="28" width="0.15" layer="1"/>
+<wire x1="30" y1="42" x2="16" y2="42" width="0.15" layer="1"/>
+<wire x1="32" y1="44" x2="30" y2="42" width="0.15" layer="1"/>
+<wire x1="16.5" y1="22" x2="16.95" y2="22" width="0.15" layer="1"/>
+<wire x1="32" y1="44" x2="32.27" y2="44" width="0.15" layer="1"/>
+<wire x1="55.7" y1="35" x2="54" y2="35" width="0.15" layer="1"/>
+<wire x1="54" y1="35" x2="53" y2="36" width="0.15" layer="1"/>
+<wire x1="53" y1="36" x2="53" y2="46" width="0.15" layer="1"/>
+<wire x1="53" y1="46" x2="51" y2="48" width="0.15" layer="1"/>
+<wire x1="51" y1="48" x2="41" y2="48" width="0.15" layer="1"/>
+<wire x1="41" y1="48" x2="38" y2="45" width="0.15" layer="1"/>
+<wire x1="38" y1="45" x2="38" y2="44" width="0.15" layer="1"/>
+<wire x1="38" y1="44" x2="32.27" y2="44" width="0.15" layer="1"/>
+</signal>
+<signal name="SH_DBG_KBD">
+<contactref element="R1" pad="1"/>
+<contactref element="LED1" pad="A"/>
+<wire x1="15.05" y1="22" x2="11.05" y2="22" width="0.15" layer="1"/>
 </signal>
 </signals>
 <errors>
