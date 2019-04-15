@@ -773,7 +773,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_EXT" value="" x="37" y="34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="37" y="34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="YES" x="37" y="34" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_" x="37" y="34" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_100n" x="37" y="34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UPDATED" value="" x="37" y="34" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39" y="36.5" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
 <attribute name="VALUE" x="39" y="38" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
@@ -812,7 +812,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="5" y="45" size="1.778" layer="27" display="off"/>
 <attribute name="UPDATED" value="" x="5" y="45" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC101" library="be_logic" package="T_NDIP14" value="MCU" x="35" y="23" smashed="yes" rot="R270">
+<element name="IC101" library="be_logic" package="T_NDIP14" value="SN7495A" x="35" y="23" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2015-05-19" x="35" y="23" size="1.778" layer="27" rot="R270" display="off"/>
@@ -848,12 +848,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="65" y="5" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="UPDATED" value="" x="65" y="5" size="1" layer="27" font="vector" ratio="13" display="off"/>
 </element>
-<element name="C301" library="be_rcl" package="S_6032" value="10U" x="17.4" y="33.8" rot="R270">
+<element name="C301" library="be_rcl" package="S_6032" value="10u" x="17.4" y="33.8" rot="R270">
 <attribute name="FUNCTION" value="" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="PART_CODE_BEL" value="C_PAC_S_6032_VAL_" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="C_PAC_S_6032_VAL_10u_Vmax_35V" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="17.4" y="33.8" size="1" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
 <element name="U$9" library="be_frame" package="A4_LANDSCAPE" value="" x="-158.4" y="-57"/>
@@ -862,7 +862,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_EXT" value="" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X10_VERTICAL_GRID_2.54mm" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X10_VERTICAL_PITCH_2mm54" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="60.4" y="38.6" size="1" layer="25" font="vector" ratio="13"/>
 </element>

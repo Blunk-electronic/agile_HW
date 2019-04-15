@@ -2408,8 +2408,10 @@ drawn: Mario Blunk / Blunk electronic</description>
 <part name="FRAME_PRODUCT1" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device="">
 <attribute name="DESCRIPTION" value="core / MCU"/>
 </part>
-<part name="IC101" library="be_logic" deviceset="74*95" device="A" value="MCU"/>
-<part name="C101" library="be_rcl" deviceset="C" device="_S_0805" value="100n"/>
+<part name="IC101" library="be_logic" deviceset="74*95" device="A" value="SN7495A"/>
+<part name="C101" library="be_rcl" deviceset="C" device="_S_0805" value="100n">
+<attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_100n"/>
+</part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_DEVELOPMENT1" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device="">
@@ -2427,10 +2429,13 @@ drawn: Mario Blunk / Blunk electronic</description>
 <part name="GND5" library="be_supply" deviceset="GND" device=""/>
 <part name="H301" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
 <part name="H302" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="C301" library="be_rcl" deviceset="C_POL" device="_S_6032" value="10U"/>
+<part name="C301" library="be_rcl" deviceset="C_POL" device="_S_6032" value="10u">
+<attribute name="PART_CODE_BEL" value="C_PAC_S_6032_VAL_10u_Vmax_35V"/>
+</part>
 <part name="GND6" library="be_supply" deviceset="GND" device=""/>
 <part name="X302" library="be_con_jump" deviceset="MALE_2X10" device="-T-VERTICAL_2.54MM">
 <attribute name="FUNCTION" value="TO SHIELD"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X10_VERTICAL_PITCH_2mm54"/>
 </part>
 <part name="U$10" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$11" library="be_info" deviceset="ARROW_1" device=""/>
