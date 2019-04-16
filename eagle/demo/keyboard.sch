@@ -1563,24 +1563,32 @@ date: 2014-10-14</description>
 <attribute name="DESCRIPTION" value="LED driver"/>
 </part>
 <part name="FRAME_DEVELOPMENT1" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
-<part name="FD301" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
-<part name="FD302" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
-<part name="H301" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="H302" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="X1" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
+<part name="FD201" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
+<part name="FD202" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
+<part name="H201" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
+<part name="H202" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
+<part name="X301" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
 <attribute name="FUNCTION" value="KEYBOARD OUT"/>
 </part>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
 <part name="U$6" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="S1" library="be_switch" deviceset="PUSH_BUTTON" device="_S_6X6MM"/>
-<part name="C1" library="be_rcl" deviceset="C" device="_S_0805" value="100n"/>
-<part name="R1" library="be_rcl" deviceset="R" device="_S_0805" value="4k7"/>
+<part name="S101" library="be_switch" deviceset="PUSH_BUTTON" device="_S_6X6MM">
+<attribute name="FUNCTION" value="LIGHT_ON"/>
+<attribute name="PART_CODE_BEL" value="S_PAC_S_PUSH_BUTTON_6X6"/>
+</part>
+<part name="C101" library="be_rcl" deviceset="C" device="_S_0805" value="100n">
+<attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_100n"/>
+</part>
+<part name="R101" library="be_rcl" deviceset="R" device="_S_0805" value="4k7">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_4k7"/>
+</part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_DEVELOPMENT2" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
 <part name="GND4" library="be_supply" deviceset="GND" device=""/>
-<part name="X2" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
+<part name="X201" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
 <attribute name="FUNCTION" value="PWR IN"/>
 </part>
+<part name="GND3" library="be_supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1589,28 +1597,21 @@ date: 2014-10-14</description>
 </plain>
 <instances>
 <instance part="FRAME_PRODUCT1" gate="G$1" x="0" y="0"/>
-<instance part="S1" gate="G$1" x="175.26" y="66.04"/>
-<instance part="C1" gate="G$1" x="187.96" y="55.88"/>
-<instance part="R1" gate="G$1" x="187.96" y="76.2" rot="R270"/>
+<instance part="S101" gate="G$1" x="205.74" y="55.88" smashed="yes" rot="MR90">
+<attribute name="NAME" x="213.36" y="56.515" size="1.27" layer="95" font="fixed" rot="MR180"/>
+<attribute name="FUNCTION" x="213.36" y="53.34" size="1.27" layer="96" font="fixed" rot="MR180"/>
+</instance>
+<instance part="C101" gate="G$1" x="187.96" y="55.88"/>
+<instance part="R101" gate="G$1" x="187.96" y="76.2" rot="R270"/>
 <instance part="GND1" gate="1" x="187.96" y="45.72"/>
+<instance part="GND3" gate="1" x="205.74" y="45.72"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="KBD_RC" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="71.12" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="S1" gate="G$1" pin="B1"/>
-<wire x1="187.96" y1="66.04" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<junction x="187.96" y="66.04"/>
-</segment>
-</net>
 <net name="P5V" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R101" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="81.28" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <label x="170.815" y="86.995" size="1.27" layer="95" font="fixed"/>
@@ -1618,16 +1619,28 @@ date: 2014-10-14</description>
 </net>
 <net name="KBD_OUT" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="A1"/>
-<wire x1="170.18" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 <label x="162.56" y="66.04" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
+<pinref part="R101" gate="G$1" pin="2"/>
+<pinref part="C101" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="71.12" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="66.04" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="S101" gate="G$1" pin="B1"/>
+<wire x1="205.74" y1="60.96" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
+<junction x="187.96" y="66.04"/>
+<wire x1="187.96" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="C101" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="187.96" y1="48.26" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S101" gate="G$1" pin="A1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="205.74" y1="48.26" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -1638,12 +1651,12 @@ date: 2014-10-14</description>
 </plain>
 <instances>
 <instance part="FRAME_DEVELOPMENT1" gate="G$1" x="0" y="0"/>
-<instance part="FD301" gate="FD" x="27.94" y="30.48"/>
-<instance part="FD302" gate="FD" x="27.94" y="20.32"/>
-<instance part="H301" gate="G$1" x="53.34" y="30.48"/>
-<instance part="H302" gate="G$1" x="53.34" y="20.32"/>
+<instance part="FD201" gate="FD" x="27.94" y="30.48"/>
+<instance part="FD202" gate="FD" x="27.94" y="20.32"/>
+<instance part="H201" gate="G$1" x="53.34" y="30.48"/>
+<instance part="H202" gate="G$1" x="53.34" y="20.32"/>
 <instance part="GND4" gate="1" x="162.56" y="50.8"/>
-<instance part="X2" gate="G$1" x="152.4" y="58.42" rot="R180">
+<instance part="X201" gate="G$1" x="152.4" y="58.42" rot="R180">
 <attribute name="FUNCTION" x="160.02" y="66.04" size="2.54" layer="96" font="fixed" rot="R180"/>
 </instance>
 </instances>
@@ -1652,7 +1665,7 @@ date: 2014-10-14</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X2" gate="G$1" pin="1"/>
+<pinref part="X201" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="154.94" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="55.88" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
@@ -1660,7 +1673,7 @@ date: 2014-10-14</description>
 </net>
 <net name="P5V" class="0">
 <segment>
-<pinref part="X2" gate="G$1" pin="2"/>
+<pinref part="X201" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <label x="166.37" y="59.055" size="1.27" layer="95" font="fixed"/>
 </segment>
@@ -1672,7 +1685,7 @@ date: 2014-10-14</description>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="187.96" y="53.34" rot="R180">
+<instance part="X301" gate="G$1" x="187.96" y="53.34" rot="R180">
 <attribute name="FUNCTION" x="195.58" y="63.5" size="2.54" layer="96" font="fixed" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="175.26" y="45.72" rot="MR0"/>
@@ -1684,7 +1697,7 @@ date: 2014-10-14</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="X301" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="53.34" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -1692,7 +1705,7 @@ date: 2014-10-14</description>
 </net>
 <net name="KBD_OUT" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="X301" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
 <label x="172.72" y="55.88" size="1.27" layer="95" font="fixed" rot="MR0" xref="yes"/>
 </segment>
