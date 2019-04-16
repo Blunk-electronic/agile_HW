@@ -751,12 +751,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="DRAWN" x="57.6" y="-34" size="1.25" layer="48" font="vector"/>
 <attribute name="DRAWING_NUMBER" x="-5.9" y="-30" size="2" layer="48" font="vector"/>
 </element>
-<element name="X302" library="be_con_jump" package="T_MALE_2X10_VERTICAL_GRID_2.54MM" value="MALE_2X10-T-VERTICAL_2.54MM" x="63" y="25" smashed="yes" rot="R270">
+<element name="X101" library="be_con_jump" package="T_MALE_2X10_VERTICAL_GRID_2.54MM" value="MALE_2X10-T-VERTICAL_2.54MM" x="63" y="25" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="TO CORE" x="59.8" y="13" size="1.5" layer="21" font="vector" ratio="15" rot="R90"/>
 <attribute name="PART_CODE_EXT" value="" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X10_VERTICAL_GRID_2.54mm" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X10_VERTICAL_PITCH_2mm54" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="63" y="25" size="1.5" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="60.4" y="38.6" size="1" layer="25" font="vector" ratio="13"/>
 </element>
@@ -769,7 +769,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="UPDATED" value="2018-08-01" x="74" y="59" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="NAME" x="48.43" y="42" size="1" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="N1" library="be_con_jump" package="S_NET_CHANGER_0.3MM" value="NET_CHANGER-S-0.3MM" x="56" y="32.8" smashed="yes">
+<element name="N201" library="be_con_jump" package="S_NET_CHANGER_0.3MM" value="NET_CHANGER-S-0.3MM" x="56" y="32.8" smashed="yes">
 <attribute name="FUNCTION" value="" x="56" y="32.8" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="56" y="32.8" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="COMMISSIONED" value="2014-04-09" x="56" y="32.8" size="1" layer="27" font="vector" ratio="13" display="off"/>
@@ -778,7 +778,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="UPDATED" value="" x="56" y="32.8" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="NAME" x="54.9" y="33.1" size="0.5" layer="25" font="vector" ratio="13"/>
 </element>
-<element name="N2" library="be_con_jump" package="S_NET_CHANGER_0.15MM" value="NET_CHANGER-S-0.15MM" x="56" y="35" smashed="yes">
+<element name="N202" library="be_con_jump" package="S_NET_CHANGER_0.15MM" value="NET_CHANGER-S-0.15MM" x="56" y="35" smashed="yes">
 <attribute name="FUNCTION" value="" x="56" y="36" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="56" y="36" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="56" y="36" size="1" layer="27" font="vector" ratio="13" display="off"/>
@@ -787,7 +787,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="UPDATED" value="" x="56" y="36" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="NAME" x="54.9" y="35.3" size="0.5" layer="25" font="vector" ratio="13"/>
 </element>
-<element name="X1" library="be_con_jump" package="T_MALE_2X1_VERTICAL_PITCH_2MM54" value="MALE_2X1-T-VERTICAL" x="32" y="45" smashed="yes" rot="R270">
+<element name="X401" library="be_con_jump" package="T_MALE_2X1_VERTICAL_PITCH_2MM54" value="MALE_2X1-T-VERTICAL" x="32" y="45" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="KEYBOARD OUT" x="37" y="48" size="1" layer="21" font="vector" ratio="13" rot="SR180"/>
 <attribute name="PART_CODE_EXT" value="" x="56" y="59" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="56" y="59" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -796,7 +796,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="UPDATED" value="2018-08-01" x="56" y="59" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="NAME" x="30.43" y="42" size="1" layer="25" font="vector" ratio="15"/>
 </element>
-<element name="H1" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="65" y="45" smashed="yes" rot="R270">
+<element name="H103" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="65" y="45" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="65" y="45" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="65" y="45" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2015-01-15" x="65" y="45" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -804,7 +804,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="65" y="45" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="65" y="45" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 </element>
-<element name="H2" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="5" y="5" smashed="yes" rot="R270">
+<element name="H104" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="5" y="5" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="-55" y="65" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="-55" y="65" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2015-01-15" x="-55" y="65" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -812,7 +812,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="-55" y="65" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="-55" y="65" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 </element>
-<element name="FD1" library="be_marks" package="CROSSHAIR" value="FIDUCIAL_CROSSHAIR" x="15" y="45" smashed="yes" rot="R270">
+<element name="FD101" library="be_marks" package="CROSSHAIR" value="FIDUCIAL_CROSSHAIR" x="15" y="45" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="23" y="52" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="23" y="52" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-12-03" x="23" y="52" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -820,7 +820,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="23" y="52" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="23" y="52" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 </element>
-<element name="FD2" library="be_marks" package="CROSSHAIR" value="FIDUCIAL_CROSSHAIR" x="55" y="5" smashed="yes" rot="R270">
+<element name="FD102" library="be_marks" package="CROSSHAIR" value="FIDUCIAL_CROSSHAIR" x="55" y="5" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="63" y="24" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="63" y="24" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2013-12-03" x="63" y="24" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -828,7 +828,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="63" y="24" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="63" y="24" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 </element>
-<element name="H3" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="5" y="45" smashed="yes" rot="R270">
+<element name="H101" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="5" y="45" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="-55" y="57" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="-55" y="57" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2015-01-15" x="-55" y="57" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -836,7 +836,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="-55" y="57" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="-55" y="57" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 </element>
-<element name="H4" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="65" y="5" smashed="yes" rot="R270">
+<element name="H102" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="65" y="5" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="" x="-55" y="77" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="-55" y="77" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="COMMISSIONED" value="2015-01-15" x="-55" y="77" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
@@ -844,42 +844,42 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <attribute name="PART_CODE_BEL" value="" x="-55" y="77" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="-55" y="77" size="1" layer="27" font="vector" ratio="13" rot="R270" display="off"/>
 </element>
-<element name="R3" library="be_rcl" package="S_0805" value="330" x="16" y="34" smashed="yes">
+<element name="R401" library="be_rcl" package="S_0805" value="330" x="16" y="34" smashed="yes">
 <attribute name="FUNCTION" value="" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="BOM" value="YES" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="UPDATED" value="" x="-16" y="-78" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="NAME" x="14.2" y="35.3" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="14.4" y="31.8" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="LED3" library="be_opt" package="S_0805" value="" x="10" y="34" smashed="yes" rot="R90">
-<attribute name="FUNCTION" value="" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<element name="LED401" library="be_opt" package="S_0805" value="red" x="10" y="34" smashed="yes" rot="R90">
+<attribute name="FUNCTION" value="BUTTON PRESSED" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="BOM" value="YES" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
-<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_red" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="UPDATED" value="" x="130" y="-8" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="NAME" x="8.2" y="35.1" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="11" y="35" size="1" layer="27" font="vector" ratio="13" rot="R90"/>
 </element>
-<element name="R4" library="be_rcl" package="S_0805" value="330" x="16" y="29" smashed="yes">
+<element name="R301" library="be_rcl" package="S_0805" value="330" x="16" y="29" smashed="yes">
 <attribute name="FUNCTION" value="" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="BOM" value="YES" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="UPDATED" value="" x="-28" y="-87" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="NAME" x="14.2" y="30.3" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="14.2" y="26.8" size="1" layer="27" font="vector" ratio="13"/>
 </element>
-<element name="LED4" library="be_opt" package="S_0805" value="" x="10" y="29" smashed="yes" rot="R90">
-<attribute name="FUNCTION" value="" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<element name="LED301" library="be_opt" package="S_0805" value="green" x="10" y="29" smashed="yes" rot="R90">
+<attribute name="FUNCTION" value="DRV ON" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="COMMISSIONED" value="2013-08-30" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="BOM" value="YES" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
-<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_green" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="UPDATED" value="" x="134" y="-28" size="1" layer="27" font="vector" ratio="13" rot="R90" display="off"/>
 <attribute name="NAME" x="8.4" y="30.3" size="1" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="11" y="30" size="1" layer="27" font="vector" ratio="13" rot="R90"/>
@@ -893,12 +893,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <vertex x="70" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<contactref element="X302" pad="1"/>
-<contactref element="X302" pad="3"/>
+<contactref element="X101" pad="1"/>
+<contactref element="X101" pad="3"/>
 <contactref element="X301" pad="1"/>
-<contactref element="X1" pad="1"/>
-<contactref element="LED3" pad="C"/>
-<contactref element="LED4" pad="C"/>
+<contactref element="X401" pad="1"/>
+<contactref element="LED401" pad="C"/>
+<contactref element="LED301" pad="C"/>
 <polygon width="0.15" layer="16">
 <vertex x="0" y="50"/>
 <vertex x="70" y="50"/>
@@ -911,21 +911,21 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <via x="7.8" y="29" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="MCU_CLK">
-<contactref element="X302" pad="2"/>
-<contactref element="N2" pad="2"/>
+<contactref element="X101" pad="2"/>
+<contactref element="N202" pad="2"/>
 <wire x1="64.27" y1="36.43" x2="62.84" y2="35" width="0.15" layer="1"/>
 <wire x1="62.84" y1="35" x2="56.3" y2="35" width="0.15" layer="1"/>
 </signal>
 <signal name="MCU_QD">
-<contactref element="X302" pad="4"/>
-<contactref element="N1" pad="2"/>
+<contactref element="X101" pad="4"/>
+<contactref element="N201" pad="2"/>
 <wire x1="64.27" y1="33.89" x2="63.18" y2="32.8" width="0.3" layer="1"/>
 <wire x1="63.18" y1="32.8" x2="56.3" y2="32.8" width="0.3" layer="1"/>
 </signal>
 <signal name="LED_DRV_IN">
 <contactref element="X301" pad="2"/>
-<contactref element="N1" pad="1"/>
-<contactref element="R4" pad="2"/>
+<contactref element="N201" pad="1"/>
+<contactref element="R301" pad="2"/>
 <wire x1="55.7" y1="32.8" x2="52.8" y2="32.8" width="0.3" layer="1"/>
 <wire x1="52.8" y1="32.8" x2="51.27" y2="34.33" width="0.3" layer="1"/>
 <wire x1="51.27" y1="34.33" x2="51.27" y2="45" width="0.3" layer="1"/>
@@ -934,9 +934,9 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="52.8" y1="29.8" x2="52.8" y2="32.8" width="0.15" layer="1"/>
 </signal>
 <signal name="KBD_OUT">
-<contactref element="N2" pad="1"/>
-<contactref element="X1" pad="2"/>
-<contactref element="R3" pad="2"/>
+<contactref element="N202" pad="1"/>
+<contactref element="X401" pad="2"/>
+<contactref element="R401" pad="2"/>
 <wire x1="55.7" y1="35" x2="52.6" y2="35" width="0.15" layer="1"/>
 <via x="52.6" y="35" extent="1-16" drill="0.3"/>
 <wire x1="52.6" y1="35" x2="50.2" y2="35" width="0.15" layer="16"/>
@@ -951,13 +951,13 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="50.2" y1="35.8" x2="50.2" y2="35" width="0.15" layer="1"/>
 </signal>
 <signal name="SH_DBG_CLK">
-<contactref element="R3" pad="1"/>
-<contactref element="LED3" pad="A"/>
+<contactref element="R401" pad="1"/>
+<contactref element="LED401" pad="A"/>
 <wire x1="15.05" y1="34" x2="11.05" y2="34" width="0.15" layer="1"/>
 </signal>
 <signal name="SH_DBG_DRV">
-<contactref element="R4" pad="1"/>
-<contactref element="LED4" pad="A"/>
+<contactref element="R301" pad="1"/>
+<contactref element="LED301" pad="A"/>
 <wire x1="15.05" y1="29" x2="11.05" y2="29" width="0.15" layer="1"/>
 </signal>
 </signals>
