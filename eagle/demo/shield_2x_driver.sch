@@ -2179,8 +2179,9 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <part name="FRAME_DEVELOPMENT1" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device="">
 <attribute name="DESCRIPTION" value="connectors"/>
 </part>
-<part name="X302" library="be_con_jump" deviceset="MALE_2X10" device="-T-VERTICAL_2.54MM">
+<part name="X101" library="be_con_jump" deviceset="MALE_2X10" device="-T-VERTICAL_2.54MM">
 <attribute name="FUNCTION" value="TO CORE"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X10_VERTICAL_PITCH_2mm54"/>
 </part>
 <part name="U$10" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$11" library="be_info" deviceset="ARROW_1" device=""/>
@@ -2190,13 +2191,13 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
 <part name="U$1" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="N1" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
+<part name="N202" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="U$2" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$3" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="N2" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.15MM" value="NET_CHANGER-S-0.15MM"/>
+<part name="N203" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.15MM" value="NET_CHANGER-S-0.15MM"/>
 <part name="U$4" library="be_info" deviceset="ARROW_1" device=""/>
 <part name="U$5" library="be_info" deviceset="ARROW_1" device=""/>
-<part name="X1" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
+<part name="X501" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
 <attribute name="FUNCTION" value="KEYBOARD OUT"/>
 </part>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
@@ -2204,20 +2205,30 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <part name="FRAME_DEVELOPMENT2" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device="">
 <attribute name="DESCRIPTION" value="connectors LED driver 1"/>
 </part>
-<part name="H1" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="H2" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="FD1" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
-<part name="FD2" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
-<part name="H3" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="H4" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="R3" library="be_rcl" deviceset="R" device="_S_0805" value="330"/>
-<part name="LED3" library="be_opt" deviceset="LED" device="_S_0805"/>
+<part name="H103" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
+<part name="H104" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
+<part name="FD101" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
+<part name="FD102" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
+<part name="H101" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
+<part name="H102" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
+<part name="R501" library="be_rcl" deviceset="R" device="_S_0805" value="330">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330"/>
+</part>
+<part name="LED501" library="be_opt" deviceset="LED" device="_S_0805" value="red">
+<attribute name="FUNCTION" value="BUTTON PRESSED"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_red"/>
+</part>
 <part name="GND5" library="be_supply" deviceset="GND" device=""/>
-<part name="R4" library="be_rcl" deviceset="R" device="_S_0805" value="330"/>
-<part name="LED4" library="be_opt" deviceset="LED" device="_S_0805"/>
+<part name="R301" library="be_rcl" deviceset="R" device="_S_0805" value="330">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330"/>
+</part>
+<part name="LED301" library="be_opt" deviceset="LED" device="_S_0805" value="green">
+<attribute name="FUNCTION" value="DRV 1 ON"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_green"/>
+</part>
 <part name="GND6" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_DEVELOPMENT3" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
-<part name="X2" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
+<part name="X401" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
 <attribute name="FUNCTION" value="LED DRV IN 2"/>
 </part>
 <part name="GND3" library="be_supply" deviceset="GND" device=""/>
@@ -2225,10 +2236,15 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <part name="FRAME_DEVELOPMENT4" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device="">
 <attribute name="DESCRIPTION" value="connectors LED driver 2"/>
 </part>
-<part name="R1" library="be_rcl" deviceset="R" device="_S_0805" value="330"/>
-<part name="LED1" library="be_opt" deviceset="LED" device="_S_0805"/>
+<part name="R401" library="be_rcl" deviceset="R" device="_S_0805" value="330">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330"/>
+</part>
+<part name="LED401" library="be_opt" deviceset="LED" device="_S_0805" value="green">
+<attribute name="FUNCTION" value="DRV 2 ON"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_S_0805_VAL_green"/>
+</part>
 <part name="GND4" library="be_supply" deviceset="GND" device=""/>
-<part name="N3" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
+<part name="N201" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2246,31 +2262,32 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <attribute name="DESCRIPTION" x="132.08" y="10.16" size="2.54" layer="100" font="fixed"/>
 <attribute name="STATUS" x="132.08" y="19" size="1.778" layer="100" font="fixed"/>
 </instance>
-<instance part="X302" gate="G$1" x="149.86" y="60.96">
+<instance part="X101" gate="G$1" x="149.86" y="60.96" smashed="yes">
 <attribute name="FUNCTION" x="142.24" y="81.28" size="2.54" layer="96" font="fixed"/>
+<attribute name="NAME" x="142.24" y="76.2" size="1.27" layer="95" font="fixed"/>
 </instance>
 <instance part="U$10" gate="G$1" x="162.56" y="71.12" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="160.02" y="68.58" smashed="yes" rot="R180"/>
 <instance part="GND7" gate="1" x="137.16" y="66.04"/>
-<instance part="H1" gate="G$1" x="55.88" y="30.48" smashed="yes">
+<instance part="H103" gate="G$1" x="55.88" y="30.48" smashed="yes">
 <attribute name="NAME" x="59.055" y="31.75" size="1.778" layer="95" font="fixed"/>
 <attribute name="VALUE" x="59.055" y="29.21" size="1.778" layer="96" font="fixed"/>
 </instance>
-<instance part="H2" gate="G$1" x="55.88" y="17.78" smashed="yes">
+<instance part="H104" gate="G$1" x="55.88" y="17.78" smashed="yes">
 <attribute name="NAME" x="59.055" y="19.05" size="1.778" layer="95" font="fixed"/>
 <attribute name="VALUE" x="59.055" y="16.51" size="1.778" layer="96" font="fixed"/>
 </instance>
-<instance part="FD1" gate="FD" x="88.9" y="30.48" smashed="yes">
+<instance part="FD101" gate="FD" x="88.9" y="30.48" smashed="yes">
 <attribute name="NAME" x="83.82" y="33.655" size="1.27" layer="95" font="fixed"/>
 </instance>
-<instance part="FD2" gate="FD" x="88.9" y="17.78" smashed="yes">
+<instance part="FD102" gate="FD" x="88.9" y="17.78" smashed="yes">
 <attribute name="NAME" x="83.82" y="20.955" size="1.27" layer="95" font="fixed"/>
 </instance>
-<instance part="H3" gate="G$1" x="27.94" y="30.48" smashed="yes">
+<instance part="H101" gate="G$1" x="27.94" y="30.48" smashed="yes">
 <attribute name="NAME" x="31.115" y="31.75" size="1.778" layer="95" font="fixed"/>
 <attribute name="VALUE" x="31.115" y="29.21" size="1.778" layer="96" font="fixed"/>
 </instance>
-<instance part="H4" gate="G$1" x="27.94" y="17.78" smashed="yes">
+<instance part="H102" gate="G$1" x="27.94" y="17.78" smashed="yes">
 <attribute name="NAME" x="31.115" y="19.05" size="1.778" layer="95" font="fixed"/>
 <attribute name="VALUE" x="31.115" y="16.51" size="1.778" layer="96" font="fixed"/>
 </instance>
@@ -2280,10 +2297,10 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X302" gate="G$1" pin="1"/>
+<pinref part="X101" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="71.12" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="X302" gate="G$1" pin="3"/>
+<pinref part="X101" gate="G$1" pin="3"/>
 <wire x1="137.16" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <junction x="137.16" y="68.58"/>
@@ -2293,14 +2310,14 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <segment>
 <wire x1="154.94" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
 <label x="165.1" y="68.58" size="1.27" layer="95" font="fixed" xref="yes"/>
-<pinref part="X302" gate="G$1" pin="4"/>
+<pinref part="X101" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MCU_CLK" class="0">
 <segment>
 <wire x1="154.94" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
 <label x="165.1" y="71.12" size="1.27" layer="95" font="fixed" xref="yes"/>
-<pinref part="X302" gate="G$1" pin="2"/>
+<pinref part="X101" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -2311,23 +2328,23 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </plain>
 <instances>
 <instance part="FRAME_NET_CHANGERS1" gate="G$1" x="0" y="0"/>
-<instance part="N1" gate="G$1" x="165.1" y="53.34" rot="MR0"/>
+<instance part="N202" gate="G$1" x="165.1" y="53.34" rot="MR0"/>
 <instance part="U$2" gate="G$1" x="175.26" y="53.34" rot="R180"/>
 <instance part="U$3" gate="G$1" x="149.86" y="53.34" rot="R180"/>
-<instance part="N2" gate="G$1" x="165.1" y="45.72" rot="MR0"/>
+<instance part="N203" gate="G$1" x="165.1" y="45.72" rot="MR0"/>
 <instance part="U$4" gate="G$1" x="177.8" y="45.72"/>
 <instance part="U$5" gate="G$1" x="152.4" y="45.72"/>
-<instance part="N3" gate="G$1" x="165.1" y="58.42" rot="MR0"/>
+<instance part="N201" gate="G$1" x="165.1" y="58.42" rot="MR0"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="MCU_QD" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="2"/>
+<pinref part="N202" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 <label x="147.32" y="53.34" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
-<pinref part="N3" gate="G$1" pin="2"/>
+<pinref part="N201" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="53.34" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="58.42" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="58.42" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
@@ -2336,28 +2353,28 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </net>
 <net name="LED_DRV_IN_1" class="0">
 <segment>
-<pinref part="N1" gate="G$1" pin="1"/>
+<pinref part="N202" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="180.34" y="53.34" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_CLK" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="2"/>
+<pinref part="N203" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
 <label x="147.32" y="45.72" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="KBD_OUT" class="0">
 <segment>
-<pinref part="N2" gate="G$1" pin="1"/>
+<pinref part="N203" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
 <label x="180.34" y="45.72" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
 </net>
 <net name="LED_DRV_IN_2" class="0">
 <segment>
-<pinref part="N3" gate="G$1" pin="1"/>
+<pinref part="N201" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
 <label x="180.34" y="58.42" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
@@ -2379,8 +2396,10 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <attribute name="DESCRIPTION" x="132.08" y="10.16" size="2.54" layer="100" font="fixed"/>
 <attribute name="STATUS" x="132.08" y="19" size="1.778" layer="100" font="fixed"/>
 </instance>
-<instance part="R4" gate="G$1" x="223.52" y="71.12" rot="R90"/>
-<instance part="LED4" gate="G$1" x="223.52" y="60.96"/>
+<instance part="R301" gate="G$1" x="223.52" y="71.12" rot="R90"/>
+<instance part="LED301" gate="G$1" x="223.52" y="60.96">
+<attribute name="FUNCTION" x="226.06" y="55.88" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="GND6" gate="1" x="223.52" y="50.8"/>
 <instance part="X301" gate="G$1" x="180.34" y="58.42" rot="R180">
 <attribute name="FUNCTION" x="187.96" y="68.58" size="2.54" layer="96" font="fixed" rot="R180"/>
@@ -2393,7 +2412,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="LED301" gate="G$1" pin="C"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="223.52" y1="53.34" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -2406,7 +2425,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </net>
 <net name="LED_DRV_IN_1" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R301" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="76.2" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="203.835" y="79.375" size="1.27" layer="95" font="fixed"/>
@@ -2419,8 +2438,8 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </net>
 <net name="SH_DBG_DRV_1" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="R301" gate="G$1" pin="1"/>
+<pinref part="LED301" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="66.04" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <label x="223.52" y="64.77" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
@@ -2442,10 +2461,12 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <attribute name="DESCRIPTION" x="132.08" y="10.16" size="2.54" layer="100" font="fixed"/>
 <attribute name="STATUS" x="132.08" y="19" size="1.778" layer="100" font="fixed"/>
 </instance>
-<instance part="R1" gate="G$1" x="223.52" y="71.12" rot="R90"/>
-<instance part="LED1" gate="G$1" x="223.52" y="60.96"/>
+<instance part="R401" gate="G$1" x="223.52" y="71.12" rot="R90"/>
+<instance part="LED401" gate="G$1" x="223.52" y="60.96">
+<attribute name="FUNCTION" x="226.06" y="55.88" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="GND4" gate="1" x="223.52" y="50.8"/>
-<instance part="X2" gate="G$1" x="180.34" y="58.42" rot="R180">
+<instance part="X401" gate="G$1" x="180.34" y="58.42" rot="R180">
 <attribute name="FUNCTION" x="187.96" y="68.58" size="2.54" layer="96" font="fixed" rot="R180"/>
 </instance>
 <instance part="GND3" gate="1" x="167.64" y="50.8" rot="MR0"/>
@@ -2456,12 +2477,12 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED401" gate="G$1" pin="C"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="223.52" y1="53.34" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="1"/>
+<pinref part="X401" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="58.42" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -2469,21 +2490,21 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </net>
 <net name="LED_DRV_IN_2" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R401" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="76.2" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="203.835" y="79.375" size="1.27" layer="95" font="fixed"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="2"/>
+<pinref part="X401" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <label x="165.1" y="60.96" size="1.27" layer="95" font="fixed" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="SH_DBG_DRV_2" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R401" gate="G$1" pin="1"/>
+<pinref part="LED401" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="66.04" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <label x="223.52" y="64.77" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
@@ -2496,10 +2517,12 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </plain>
 <instances>
 <instance part="FRAME_DEVELOPMENT3" gate="G$1" x="0" y="0"/>
-<instance part="R3" gate="G$1" x="200.66" y="71.12" rot="R90"/>
-<instance part="LED3" gate="G$1" x="200.66" y="60.96"/>
+<instance part="R501" gate="G$1" x="200.66" y="71.12" rot="R90"/>
+<instance part="LED501" gate="G$1" x="200.66" y="60.96">
+<attribute name="FUNCTION" x="203.2" y="55.88" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="GND5" gate="1" x="200.66" y="50.8"/>
-<instance part="X1" gate="G$1" x="160.02" y="58.42" rot="R180">
+<instance part="X501" gate="G$1" x="160.02" y="58.42" rot="R180">
 <attribute name="FUNCTION" x="167.64" y="68.58" size="2.54" layer="96" font="fixed" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="147.32" y="50.8" rot="MR0"/>
@@ -2510,12 +2533,12 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED501" gate="G$1" pin="C"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="200.66" y1="53.34" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="X501" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="58.42" x2="147.32" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -2523,21 +2546,21 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 </net>
 <net name="KBD_OUT" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R501" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="76.2" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
 <label x="183.515" y="79.375" size="1.27" layer="95" font="fixed"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="X501" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="144.78" y="60.96" size="1.27" layer="95" font="fixed" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="SH_DBG_CLK" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="R501" gate="G$1" pin="1"/>
+<pinref part="LED501" gate="G$1" pin="A"/>
 <wire x1="200.66" y1="66.04" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 <label x="200.66" y="64.77" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
