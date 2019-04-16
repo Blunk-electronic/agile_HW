@@ -2351,7 +2351,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <junction x="154.94" y="53.34"/>
 </segment>
 </net>
-<net name="LED_DRV_IN_1" class="0">
+<net name="LED_DRV_1_IN" class="0">
 <segment>
 <pinref part="N202" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
@@ -2372,7 +2372,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <label x="180.34" y="45.72" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
 </net>
-<net name="LED_DRV_IN_2" class="0">
+<net name="LED_DRV_2_IN" class="0">
 <segment>
 <pinref part="N201" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
@@ -2423,7 +2423,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="LED_DRV_IN_1" class="0">
+<net name="LED_DRV_1_IN" class="0">
 <segment>
 <pinref part="R301" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="76.2" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
@@ -2436,7 +2436,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <label x="165.1" y="60.96" size="1.27" layer="95" font="fixed" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="SH_DBG_DRV_1" class="0">
+<net name="SH_DBG_1_DRV" class="0">
 <segment>
 <pinref part="R301" gate="G$1" pin="1"/>
 <pinref part="LED301" gate="G$1" pin="A"/>
@@ -2488,7 +2488,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="LED_DRV_IN_2" class="0">
+<net name="LED_DRV_2_IN" class="0">
 <segment>
 <pinref part="R401" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="76.2" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
@@ -2501,7 +2501,7 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <label x="165.1" y="60.96" size="1.27" layer="95" font="fixed" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="SH_DBG_DRV_2" class="0">
+<net name="SH_DBG_2_DRV" class="0">
 <segment>
 <pinref part="R401" gate="G$1" pin="1"/>
 <pinref part="LED401" gate="G$1" pin="A"/>

@@ -997,12 +997,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <contactref element="LED501" pad="A"/>
 <wire x1="15.05" y1="34" x2="11.05" y2="34" width="0.15" layer="1"/>
 </signal>
-<signal name="SH_DBG_DRV_1">
+<signal name="SH_DBG_1_DRV">
 <contactref element="R301" pad="1"/>
 <contactref element="LED301" pad="A"/>
 <wire x1="15.05" y1="29" x2="11.05" y2="29" width="0.15" layer="1"/>
 </signal>
-<signal name="LED_DRV_IN_2">
+<signal name="LED_DRV_2_IN">
 <contactref element="R401" pad="2"/>
 <contactref element="X401" pad="2"/>
 <contactref element="N201" pad="1"/>
@@ -1019,12 +1019,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfragefo
 <wire x1="46" y1="31" x2="46.6" y2="30.4" width="0.15" layer="1"/>
 <wire x1="57.4" y1="45" x2="57.27" y2="45" width="0.15" layer="1"/>
 </signal>
-<signal name="SH_DBG_DRV_2">
+<signal name="SH_DBG_2_DRV">
 <contactref element="R401" pad="1"/>
 <contactref element="LED401" pad="A"/>
 <wire x1="15.05" y1="24" x2="11.05" y2="24" width="0.15" layer="1"/>
 </signal>
-<signal name="LED_DRV_IN_1">
+<signal name="LED_DRV_1_IN">
 <contactref element="X301" pad="2"/>
 <contactref element="R301" pad="2"/>
 <contactref element="N202" pad="1"/>
