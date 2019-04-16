@@ -1710,17 +1710,25 @@ date: 2014-10-13</description>
 <part name="FRAME_PRODUCT1" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device="">
 <attribute name="DESCRIPTION" value="LED driver"/>
 </part>
-<part name="R101" library="be_rcl" deviceset="R" device="_S_0805" value="2k2"/>
-<part name="T101" library="be_transistor" deviceset="NPN" device="_S_SOT23" value="BC548C"/>
-<part name="R102" library="be_rcl" deviceset="R" device="_S_0805" value="100"/>
+<part name="R101" library="be_rcl" deviceset="R" device="_S_0805" value="2k2">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_2k2"/>
+</part>
+<part name="T101" library="be_transistor" deviceset="NPN" device="_S_SOT23" value="BCW60D">
+<attribute name="PART_CODE_BEL" value="T_PAC_S_SOT23_VAL_BCW60D"/>
+</part>
+<part name="R102" library="be_rcl" deviceset="R" device="_S_0805" value="100">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_100"/>
+</part>
 <part name="GND3" library="be_supply" deviceset="GND" device=""/>
-<part name="C101" library="be_rcl" deviceset="C_POL" device="_S_6032" value="100n"/>
+<part name="C101" library="be_rcl" deviceset="C_POL" device="_S_6032" value="10u">
+<attribute name="PART_CODE_BEL" value="C_PAC_S_6032_VAL_10u_Vmax_35V"/>
+</part>
 <part name="GND2" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_DEVELOPMENT1" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
-<part name="X302" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
-<attribute name="FUNCTION" value="LED DRV OUT 2"/>
+<part name="X101" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
+<attribute name="FUNCTION" value="LED DRV OUT"/>
 </part>
-<part name="X301" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
+<part name="X201" library="be_con_jump" deviceset="MALE_2X1" device="-T-VERTICAL">
 <attribute name="FUNCTION" value="LED DRV IN"/>
 </part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
@@ -1729,7 +1737,7 @@ date: 2014-10-13</description>
 <part name="FD302" library="be_marks" deviceset="FIDUCIAL" device="_CROSSHAIR"/>
 <part name="H301" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
 <part name="H302" library="be_holes" deviceset="HOLE" device="_3.2_PAD"/>
-<part name="X1" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
+<part name="X301" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-2.5MM">
 <attribute name="FUNCTION" value="PWR IN"/>
 </part>
 <part name="FRAME_DEVELOPMENT2" library="be_frame" deviceset="A4_LANDSCAPE_DEVELOPMENT" device=""/>
@@ -1747,7 +1755,7 @@ date: 2014-10-13</description>
 <instance part="GND3" gate="1" x="162.56" y="50.8"/>
 <instance part="C101" gate="G$1" x="203.2" y="60.96"/>
 <instance part="GND2" gate="1" x="203.2" y="50.8"/>
-<instance part="X302" gate="G$1" x="210.82" y="106.68" rot="MR180">
+<instance part="X101" gate="G$1" x="210.82" y="106.68" rot="MR180">
 <attribute name="FUNCTION" x="203.2" y="114.3" size="2.54" layer="96" font="fixed" rot="MR180"/>
 </instance>
 </instances>
@@ -1764,7 +1772,7 @@ date: 2014-10-13</description>
 <junction x="203.2" y="66.04"/>
 </segment>
 <segment>
-<pinref part="X302" gate="G$1" pin="1"/>
+<pinref part="X101" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <label x="196.215" y="104.775" size="1.27" layer="95" font="fixed"/>
 </segment>
@@ -1781,28 +1789,28 @@ date: 2014-10-13</description>
 <wire x1="203.2" y1="55.88" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_DRV_IN_2" class="0">
+<net name="LED_DRV_2_IN" class="0">
 <segment>
 <pinref part="R101" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <label x="139.7" y="60.96" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LED_DRV_B_2" class="0">
+<net name="LED_DRV_2_B" class="0">
 <segment>
 <pinref part="R101" gate="G$1" pin="2"/>
 <pinref part="T101" gate="G$1" pin="B"/>
 <wire x1="154.94" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_DRV_C_2" class="0">
+<net name="LED_DRV_2_C" class="0">
 <segment>
 <pinref part="T101" gate="G$1" pin="C"/>
 <pinref part="R102" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="66.04" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED_DRV_OUT_2" class="0">
+<net name="LED_DRV_2_OUT" class="0">
 <segment>
 <pinref part="R102" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="78.74" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
@@ -1810,7 +1818,7 @@ date: 2014-10-13</description>
 <label x="172.72" y="81.28" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X302" gate="G$1" pin="2"/>
+<pinref part="X101" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
 <label x="195.58" y="106.68" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
@@ -1823,7 +1831,7 @@ date: 2014-10-13</description>
 </plain>
 <instances>
 <instance part="FRAME_DEVELOPMENT1" gate="G$1" x="0" y="0"/>
-<instance part="X301" gate="G$1" x="134.62" y="66.04" rot="MR180">
+<instance part="X201" gate="G$1" x="134.62" y="66.04" rot="MR180">
 <attribute name="FUNCTION" x="127" y="76.2" size="2.54" layer="96" font="fixed" rot="MR180"/>
 </instance>
 <instance part="GND1" gate="1" x="147.32" y="58.42"/>
@@ -1833,15 +1841,15 @@ date: 2014-10-13</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X301" gate="G$1" pin="1"/>
+<pinref part="X201" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="66.04" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="LED_DRV_IN_2" class="0">
+<net name="LED_DRV_2_IN" class="0">
 <segment>
-<pinref part="X301" gate="G$1" pin="2"/>
+<pinref part="X201" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <label x="149.86" y="68.58" size="1.27" layer="95" font="fixed" xref="yes"/>
 </segment>
@@ -1859,7 +1867,7 @@ date: 2014-10-13</description>
 <instance part="FD302" gate="FD" x="35.56" y="20.32"/>
 <instance part="H301" gate="G$1" x="60.96" y="30.48"/>
 <instance part="H302" gate="G$1" x="60.96" y="20.32"/>
-<instance part="X1" gate="G$1" x="157.48" y="58.42" rot="R180">
+<instance part="X301" gate="G$1" x="157.48" y="58.42" rot="R180">
 <attribute name="FUNCTION" x="165.1" y="66.04" size="2.54" layer="96" font="fixed" rot="R180"/>
 </instance>
 </instances>
@@ -1868,7 +1876,7 @@ date: 2014-10-13</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="X301" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="160.02" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="55.88" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
@@ -1876,7 +1884,7 @@ date: 2014-10-13</description>
 </net>
 <net name="P5V" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="2"/>
+<pinref part="X301" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="171.45" y="59.055" size="1.27" layer="95" font="fixed"/>
 </segment>
@@ -1884,11 +1892,6 @@ date: 2014-10-13</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="101,2,50.8,30.48,H1,MOUNT,,,,"/>
-<approved hash="101,2,50.8,20.32,H2,MOUNT,,,,"/>
-<approved hash="106,1,203.2,63.5,P5V,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>

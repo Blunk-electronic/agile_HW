@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.2" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tCopper" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bCopper" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="HEIGHT" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="DEPTH" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="5" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="frame_development" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="frame_net_changers" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="bot_pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="S_DOKU" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="brd_placement_notes" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="198" name="BMP198" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="TopDocument" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="Route2Document" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="203" name="Route3Document" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="204" name="Route4Document" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="205" name="Route5Document" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="206" name="Route6Document" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="207" name="Route7Document" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="208" name="Route8Document" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="209" name="Route9Document" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="210" name="Route10Document" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="211" name="Route11Document" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="212" name="Route12Document" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="213" name="Route13Document" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="214" name="Route14Document" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="215" name="Route15Document" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="216" name="BottomDocument" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="DimensionDocument" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="tPlaceDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="bPlaceDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="tNamesDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="bNamesDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="tValuesDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="bValuesDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="tStopDocument" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="230" name="bStopDocument" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="231" name="tCreamDocument" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="232" name="bCreamDocument" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="233" name="tFinishDocument" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="234" name="bFinishDocument" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="235" name="tGlueDocument" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="236" name="bGlueDocument" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="244" name="DrillsDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="245" name="HolesDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="246" name="MillingDocument" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="247" name="MeasuresDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="50" y2="0" width="0" layer="20"/>
+<wire x1="50" y1="0" x2="50" y2="50" width="0" layer="20"/>
+<wire x1="50" y1="50" x2="0" y2="50" width="0" layer="20"/>
+<wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="50" y2="0" x3="25" y3="-4" textsize="1.5" textratio="13" layer="47"/>
+<text x="17" y="2" size="1.5" layer="21" font="vector" ratio="13">LED driver</text>
+<text x="2" y="2" size="1" layer="1" font="vector" ratio="15">TOP</text>
+<text x="8" y="2" size="1" layer="16" font="vector" ratio="15" rot="MR0">BOT</text>
+<dimension x1="50" y1="50" x2="50" y2="0" x3="65" y3="25" textsize="1.5" textratio="13" layer="47"/>
+<dimension x1="45" y1="45" x2="45" y2="5" x3="60" y3="25" textsize="1.5" textratio="13" layer="47"/>
+<text x="38" y="46" size="1" layer="2" font="vector" ratio="13">L2</text>
+</plain>
+<libraries>
+<library name="be_rcl">
+<description>passive components (resistors, inductors, capacitors)</description>
+<packages>
+<package name="S_6032">
+<description>edited: Mario Blunk / Blunk electronic &lt;br&gt;
+date: 2013-09-30</description>
+<wire x1="-2.85" y1="1.55" x2="2.85" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.85" y1="1.55" x2="2.85" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.85" y1="-1.55" x2="-2.85" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.85" y1="-1.55" x2="-2.85" y2="1.55" width="0.1016" layer="51"/>
+<smd name="+" x="-2.5" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="-" x="2.5" y="0" dx="2.4" dy="2.4" layer="1" rot="R180"/>
+<rectangle x1="-3" y1="-1.1" x2="-2.8" y2="1.1" layer="51"/>
+<rectangle x1="2.8" y1="-1.1" x2="3" y2="1.1" layer="51" rot="R180"/>
+<rectangle x1="-2.85" y1="-1.55" x2="-1.9" y2="1.55" layer="51"/>
+<text x="-2.5" y="3.3" size="1" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="-2.5" y="2" size="1" layer="27" font="vector" ratio="13">&gt;VALUE</text>
+<wire x1="-4" y1="2" x2="4" y2="2" width="0.1" layer="39"/>
+<wire x1="4" y1="2" x2="4" y2="-2" width="0.1" layer="39"/>
+<wire x1="4" y1="-2" x2="-4" y2="-2" width="0.1" layer="39"/>
+<wire x1="-4" y1="-2" x2="-4" y2="2" width="0.1" layer="39"/>
+</package>
+<package name="S_0805">
+<description>drawn: Mario Blunk / Blunk electronic&lt;br&gt;
+edited: 2014-01-03</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.127" layer="39"/>
+<wire x1="2" y1="1" x2="2" y2="-1" width="0.127" layer="39"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.127" layer="39"/>
+<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.127" layer="39"/>
+<text x="-2" y="-2.5" size="1" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="-2" y="-4" size="1" layer="27" font="vector" ratio="13">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="be_con_jump">
+<description>connectors, jumpers, test points &lt;br&gt;</description>
+<packages>
+<package name="T_WIRE_CLAMP_1X2_PITCH_2MM5">
+<description>date; 2014-04-14&lt;br&gt;
+drawn: Mario Blunk / Blunk electronic</description>
+<wire x1="-2.75" y1="-5.5" x2="2.75" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-5.5" x2="-2.75" y2="5.5" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="5.5" x2="2.75" y2="-5.5" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="5.5" x2="-2.75" y2="5.5" width="0.1524" layer="21"/>
+<pad name="1" x="-1.25" y="-0.02" drill="1.3" diameter="1.8" shape="long" rot="R90"/>
+<pad name="2" x="1.25" y="-0.02" drill="1.3" diameter="1.8" shape="long" rot="R90"/>
+<text x="-2.75" y="-6.75" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.75" y="2" size="1.27" layer="51" font="vector" ratio="15">1</text>
+<text x="0.75" y="2" size="1.27" layer="51" font="vector" ratio="15">2</text>
+<wire x1="-3.25" y1="6.25" x2="3.25" y2="6.25" width="0.15" layer="39"/>
+<wire x1="3.25" y1="6.25" x2="3.25" y2="-6" width="0.15" layer="39"/>
+<wire x1="3.25" y1="-6" x2="-3.25" y2="-6" width="0.15" layer="39"/>
+<wire x1="-3.25" y1="-6" x2="-3.25" y2="6.25" width="0.15" layer="39"/>
+<wire x1="-2.75" y1="3.75" x2="2.75" y2="3.75" width="0.1524" layer="51"/>
+<wire x1="1.25" y1="-4.5" x2="1.25" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="1.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="1.25" y1="-2.5" x2="0.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-4.5" x2="-1.25" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-2.5" x2="-0.75" y2="-3" width="0.15" layer="51"/>
+<wire x1="-1.25" y1="-2.5" x2="-1.75" y2="-3" width="0.15" layer="51"/>
+</package>
+<package name="T_MALE_2X1_VERTICAL_PITCH_2MM54">
+<description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2018-08-01</description>
+<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="-1.27" drill="1" shape="square"/>
+<pad name="2" x="0" y="1.27" drill="1" shape="octagon"/>
+<text x="3" y="-1.57" size="1" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
+<text x="-2" y="-2.07" size="1" layer="27" font="vector" ratio="15" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<wire x1="-1.6" y1="2.8" x2="1.6" y2="2.8" width="0.1" layer="39"/>
+<wire x1="1.6" y1="2.8" x2="1.6" y2="-2.8" width="0.1" layer="39"/>
+<wire x1="1.6" y1="-2.8" x2="-1.6" y2="-2.8" width="0.1" layer="39"/>
+<wire x1="-1.6" y1="-2.8" x2="-1.6" y2="2.8" width="0.1" layer="39"/>
+<text x="1.9" y="-2.7" size="0.8" layer="21" font="vector" ratio="13" rot="R90">1</text>
+</package>
+</packages>
+</library>
+<library name="be_transistor">
+<description>transistors</description>
+<packages>
+<package name="S_SOT23">
+<description>drawn: Mario Blunk / Blunk electronic&lt;br&gt;
+edited: 2014-04-22</description>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<text x="2" y="0.5" size="1" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="2" y="-1" size="1" layer="27" font="vector" ratio="13">&gt;VALUE</text>
+<wire x1="-1.8" y1="2" x2="1.8" y2="2" width="0.1" layer="39"/>
+<wire x1="1.8" y1="2" x2="1.8" y2="-2" width="0.1" layer="39"/>
+<wire x1="1.8" y1="-2" x2="-1.8" y2="-2" width="0.1" layer="39"/>
+<wire x1="-1.8" y1="-2" x2="-1.8" y2="2" width="0.1" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="be_frame">
+<description>drawing frames&lt;br&gt;
+already implemented global placeholders : project, drawn, checked, approved</description>
+<packages>
+<package name="A4_LANDSCAPE">
+<description>edited: Mario Blunk&lt;br&gt;
+date: 2014-10-15</description>
+<text x="152.5" y="5" size="2" layer="48" font="vector">&gt;DRAWING_NAME</text>
+<text x="152.5" y="19" size="2" layer="48" font="vector">&gt;STATUS</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="48"/>
+<wire x1="256.5" y1="33" x2="246.46" y2="33" width="0.1" layer="48"/>
+<wire x1="246.46" y1="33" x2="236.46" y2="33" width="0.1" layer="48"/>
+<wire x1="236.46" y1="33" x2="226.46" y2="33" width="0.1" layer="48"/>
+<wire x1="226.46" y1="33" x2="215.46" y2="33" width="0.1" layer="48"/>
+<wire x1="215.46" y1="33" x2="204.46" y2="33" width="0.1" layer="48"/>
+<wire x1="204.46" y1="33" x2="150.3" y2="33" width="0.1" layer="48"/>
+<wire x1="150.3" y1="33" x2="136.3" y2="33" width="0.1" layer="48"/>
+<wire x1="136.3" y1="33" x2="136.3" y2="26" width="0.1" layer="48"/>
+<wire x1="136.3" y1="26" x2="136.3" y2="22" width="0.1" layer="48"/>
+<wire x1="136.3" y1="22" x2="136.3" y2="18" width="0.1" layer="48"/>
+<wire x1="136.3" y1="18" x2="136.3" y2="9" width="0.1" layer="48"/>
+<wire x1="136.3" y1="9" x2="136.3" y2="3.85" width="0.1" layer="48"/>
+<wire x1="256.5" y1="26" x2="246.46" y2="26" width="0.1" layer="48"/>
+<wire x1="246.46" y1="26" x2="236.46" y2="26" width="0.1" layer="48"/>
+<wire x1="236.46" y1="26" x2="226.46" y2="26" width="0.1" layer="48"/>
+<wire x1="226.46" y1="26" x2="215.46" y2="26" width="0.1" layer="48"/>
+<wire x1="215.46" y1="26" x2="204.46" y2="26" width="0.1" layer="48"/>
+<wire x1="204.46" y1="26" x2="136.3" y2="26" width="0.1" layer="48"/>
+<wire x1="256.5" y1="22" x2="136.3" y2="22" width="0.1" layer="48"/>
+<wire x1="256.5" y1="18" x2="136.3" y2="18" width="0.1" layer="48"/>
+<wire x1="256.5" y1="9" x2="136.3" y2="9" width="0.1" layer="48"/>
+<wire x1="150.3" y1="33" x2="150.3" y2="3.85" width="0.1" layer="48"/>
+<text x="205" y="30.5" size="1.25" layer="48" font="vector">Size:</text>
+<text x="210" y="27" size="2.5" layer="48" font="vector" align="bottom-center">A4</text>
+<text x="152.5" y="30.5" size="1.25" layer="48" font="vector">Drawing Number:</text>
+<text x="137" y="23" size="1.25" layer="48" font="vector">Project:</text>
+<text x="137" y="10" size="1.25" layer="48" font="vector">Description:</text>
+<text x="137" y="5" size="1.25" layer="48" font="vector">Filename:</text>
+<text x="205" y="19" size="1.25" layer="48" font="vector">Checked:</text>
+<text x="137" y="19" size="1.25" layer="48" font="vector">Status:</text>
+<wire x1="204.46" y1="26" x2="204.46" y2="14" width="0.1" layer="48"/>
+<wire x1="204.46" y1="14" x2="204.46" y2="3.85" width="0.1" layer="48"/>
+<wire x1="215.46" y1="26" x2="215.46" y2="14" width="0.1" layer="48"/>
+<text x="152.5" y="23" size="2" layer="48" font="vector">&gt;PROJECT</text>
+<text x="216" y="19" size="1.25" layer="48" font="vector">&gt;CHECKED</text>
+<text x="152.5" y="34" size="1.25" layer="48" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="137.5" y="34" size="1.25" layer="48" font="vector">last update:</text>
+<wire x1="215.46" y1="14" x2="215.46" y2="9.35" width="0.1" layer="48"/>
+<wire x1="215.46" y1="14" x2="204.46" y2="14" width="0.1" layer="48"/>
+<wire x1="256.5" y1="14" x2="215.46" y2="14" width="0.1" layer="48"/>
+<text x="205" y="15" size="1.25" layer="48" font="vector">Approved:</text>
+<text x="216" y="15" size="1.25" layer="48" font="vector">&gt;APPROVED</text>
+<text x="216" y="23" size="1.25" layer="48" font="vector">&gt;DRAWN</text>
+<text x="205" y="23" size="1.25" layer="48" font="vector">Drawn:</text>
+<wire x1="204.46" y1="33" x2="204.46" y2="26" width="0.1" layer="48"/>
+<wire x1="215.46" y1="33" x2="215.46" y2="26" width="0.1" layer="48"/>
+<wire x1="226.46" y1="33" x2="226.46" y2="26" width="0.1" layer="48"/>
+<wire x1="236.46" y1="33" x2="236.46" y2="26" width="0.1" layer="48"/>
+<wire x1="246.46" y1="33" x2="246.46" y2="26" width="0.1" layer="48"/>
+<text x="216" y="30.5" size="1.25" layer="48" font="vector">Scale:</text>
+<text x="221" y="27" size="1.25" layer="48" font="vector" align="bottom-center">not to
+scale</text>
+<text x="227" y="30.5" size="1.25" layer="48" font="vector">Units:</text>
+<text x="231.5" y="27" size="2.5" layer="48" font="vector" align="bottom-center">mm</text>
+<text x="152.5" y="16" size="1" layer="1" font="vector">Cu Layer 1 (top)</text>
+<text x="152.5" y="16" size="1" layer="16" font="vector">Cu Layer 16 (bot)</text>
+<text x="182.5" y="14" size="1" layer="46" font="vector">plated millings</text>
+<text x="152.5" y="14" size="1" layer="27" font="vector">values top</text>
+<text x="152.5" y="14" size="1" layer="28" font="vector">values bottom</text>
+<text x="152.5" y="12" size="1" layer="25" font="vector">silk screen top</text>
+<text x="182.5" y="10" size="1" layer="29" font="vector">stop mask top</text>
+<text x="182.5" y="10" size="1" layer="30" font="vector">stop mask bottom</text>
+<text x="152.5" y="10" size="1" layer="32" font="vector">cream mask bottom</text>
+<text x="152.5" y="10" size="1" layer="31" font="vector">cream mask top</text>
+<text x="182.5" y="10" size="1" layer="120" font="vector">placement notes</text>
+<text x="182.5" y="12" size="1" layer="44" font="vector">plated drills</text>
+<text x="152.5" y="16" size="1" layer="47" font="vector">measures</text>
+<text x="152.5" y="10" size="1" layer="52" font="vector">doc. bot</text>
+<text x="152.5" y="10" size="1" layer="51" font="vector">doc. top</text>
+<text x="182.5" y="16" size="1" layer="45" font="vector">non-plated drills</text>
+<text x="152.5" y="12" size="1" layer="26" font="vector">silk screen bottom</text>
+<text x="152.5" y="27" size="2" layer="48" font="vector">&gt;DRAWING_NUMBER</text>
+</package>
+</packages>
+</library>
+<library name="be_marks">
+<description>reference marks required for automated assembly</description>
+<packages>
+<package name="CROSSHAIR">
+<description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2015-10-27</description>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
+<circle x="0" y="0" radius="2.65" width="0" layer="29"/>
+<circle x="0" y="0" radius="2.65" width="0" layer="30"/>
+<smd name="1" x="0.5" y="0.5" dx="0.3048" dy="0.1524" layer="1" stop="no" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="2.75" width="0.15" layer="39"/>
+<circle x="0" y="0" radius="2.75" width="0.15" layer="40"/>
+<circle x="0" y="0" radius="2.75" width="0.15" layer="42"/>
+<circle x="0" y="0" radius="2.75" width="0.15" layer="41"/>
+<circle x="0" y="0" radius="2.75" width="0.15" layer="43"/>
+<wire x1="-2" y1="0" x2="2" y2="0" width="0.15" layer="51"/>
+<wire x1="0" y1="2" x2="0" y2="-2" width="0.15" layer="51"/>
+<wire x1="0" y1="2" x2="0" y2="-2" width="0.15" layer="52"/>
+<wire x1="-2" y1="0" x2="2" y2="0" width="0.15" layer="52"/>
+<text x="-1.5" y="-4" size="0.7" layer="25" font="vector" ratio="13">&gt;NAME</text>
+<text x="1.5" y="-4" size="0.7" layer="26" font="vector" ratio="13" rot="MR0">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="be_holes">
+<packages>
+<package name="3.2_PAD">
+<description>edited: Mario Blunk&lt;br&gt;
+date: 2015-01-15</description>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.15" layer="40"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.15" layer="40"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.15" layer="40"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.15" layer="40"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.15" layer="39"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.15" layer="39"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.15" layer="39"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.15" layer="39"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.15" layer="41"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.15" layer="41"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.15" layer="41"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.15" layer="41"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.15" layer="42"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.15" layer="42"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.15" layer="42"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.15" layer="42"/>
+<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.15" layer="43"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.15" layer="43"/>
+<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.15" layer="43"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.15" layer="43"/>
+<wire x1="-3" y1="3" x2="3" y2="3" width="0.15" layer="51"/>
+<wire x1="3" y1="3" x2="3" y2="-3" width="0.15" layer="51"/>
+<wire x1="3" y1="-3" x2="-3" y2="-3" width="0.15" layer="51"/>
+<wire x1="-3" y1="-3" x2="-3" y2="3" width="0.15" layer="51"/>
+<pad name="H1" x="0" y="0" drill="3.2" diameter="6" shape="square"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+<attribute name="DRAWING_NUMBER" value="V001"/>
+<attribute name="DRAWN" value="Mario Blunk / Blunk electronic"/>
+<attribute name="PROJECT" value="agile HW demo"/>
+<attribute name="STATUS" value="development"/>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="JLP_ML4_std">
+<description language="de">&lt;b&gt;4-lagig DKL, FR4 Standard (&gt;0.15mm) for Jenaer Leiterplatten GmbH&lt;/b&gt;
+&lt;p&gt;Referenzen:
+&lt;a href=&quot;http://www.jlp.de/downloads/technische-informationen.html&quot;&gt;Technische Informationen&lt;/a&gt;
+(2014/05/26)&lt;/p&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;FR4 mehrlagig durchkontaktiert, 1 (open), 16 (unten)&lt;/li&gt;
+&lt;li&gt;standard Isolation, 1.5mm&lt;/li&gt;
+&lt;li&gt;standard Kupfer, 37µm&lt;/li&gt;
+&lt;li&gt;standard Strukturen, größer als 0.15mm&lt;/li&gt;
+&lt;li&gt;standard Bohrungen, größer als 0.3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;address&gt;&lt;b&gt;Jenaer Leiterplatten GmbH&lt;/b&gt;&lt;br /&gt;Prüssingstraße 31&lt;br /&gt;07745 Jena / Germany&lt;br /&gt;&lt;br /&gt;
+Telefon: +49 3641 62 16-36&lt;br /&gt;
+FAX: +49 3641 62 16-55&lt;br /&gt;
+E-Mail: &lt;a href=&quot;mailto:cam@jlp.de&quot;&gt;cam@jlp.de&lt;/a&gt;&lt;br /&gt;
+Anfrage: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfrageformular.pdf&quot;&gt;jenaer_leiterplatten-anfrageformular.pdf&lt;/a&gt;&lt;/address&gt;&lt;/p&gt;</description>
+<description language="en">&lt;b&gt;4-layer PTH, FR4 Standard (&gt;0.15mm) for Jenaer Leiterplatten GmbH&lt;/b&gt;
+&lt;p&gt;References:
+&lt;a href=&quot;http://www.jlp.de/downloads/technische-informationen.html&quot;&gt;Technical Information in German&lt;/a&gt;
+(2014/05/26)&lt;/p&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;FR4 multilayer plated through, 1 (top), 16 (bottom)&lt;/li&gt;
+&lt;li&gt;standard isolation, 1.5mm&lt;/li&gt;
+&lt;li&gt;standard copper, 37µm&lt;/li&gt;
+&lt;li&gt;standard structures, greater than 0.15mm&lt;/li&gt;
+&lt;li&gt;standard drills, greater than 0.3mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;address&gt;&lt;b&gt;Jenaer Leiterplatten GmbH&lt;/b&gt;&lt;br /&gt;Prüssingstraße 31&lt;br /&gt;07745 Jena / Germany&lt;br /&gt;&lt;br /&gt;
+Phone: +49 3641 62 16-36&lt;br /&gt;
+FAX: +49 3641 62 16-55&lt;br /&gt;
+E-Mail: &lt;a href=&quot;mailto:cam@jlp.de&quot;&gt;cam@jlp.de&lt;/a&gt;&lt;br /&gt;
+Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterplatten-anfrageformular.pdf&quot;&gt;jenaer_leiterplatten-anfrageformular.pdf&lt;/a&gt;&lt;/address&gt;&lt;/p&gt;</description>
+<param name="layerSetup" value="(1+2*15+16)"/>
+<param name="mtCopper" value="0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
+<param name="mtIsolate" value="0.37mm 0.65mm 0.28mm 0.36mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.36mm 0.37mm"/>
+<param name="mdWireWire" value="0.15mm"/>
+<param name="mdWirePad" value="0.15mm"/>
+<param name="mdWireVia" value="0.15mm"/>
+<param name="mdPadPad" value="0.15mm"/>
+<param name="mdPadVia" value="0.15mm"/>
+<param name="mdViaVia" value="0.15mm"/>
+<param name="mdSmdPad" value="0.15mm"/>
+<param name="mdSmdVia" value="0.15mm"/>
+<param name="mdSmdSmd" value="0.15mm"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="0.5mm"/>
+<param name="mdDrill" value="0.2mm"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="0.15mm"/>
+<param name="msDrill" value="0.3mm"/>
+<param name="msMicroVia" value="25mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="0.15mm"/>
+<param name="rlMaxPadTop" value="2.5mm"/>
+<param name="rlMinPadInner" value="0.2mm"/>
+<param name="rlMaxPadInner" value="2.5mm"/>
+<param name="rlMinPadBottom" value="0.15mm"/>
+<param name="rlMaxPadBottom" value="2.5mm"/>
+<param name="rlMinViaOuter" value="0.15mm"/>
+<param name="rlMaxViaOuter" value="2.5mm"/>
+<param name="rlMinViaInner" value="0.2mm"/>
+<param name="rlMaxViaInner" value="2.5mm"/>
+<param name="rlMinMicroViaOuter" value="2.5mm"/>
+<param name="rlMaxMicroViaOuter" value="25mm"/>
+<param name="rlMinMicroViaInner" value="2.5mm"/>
+<param name="rlMaxMicroViaInner" value="25mm"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="0"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="0.075mm"/>
+<param name="mlMaxStopFrame" value="0.2mm"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0.3mm"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="C101" library="be_rcl" package="S_6032" value="10u" x="10.78" y="19.41" smashed="yes" rot="R180">
+<attribute name="FUNCTION" value="" x="10.78" y="19.41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="10.78" y="19.41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="10.78" y="19.41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="BOM" value="YES" x="10.78" y="19.41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_CODE_BEL" value="C_PAC_S_6032_VAL_10u_Vmax_35V" x="10.78" y="19.41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="UPDATED" value="" x="10.78" y="19.41" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="13.28" y="16.11" size="1" layer="25" font="vector" ratio="13" rot="R180"/>
+<attribute name="VALUE" x="13.28" y="17.41" size="1" layer="27" font="vector" ratio="13" rot="R180"/>
+</element>
+<element name="R101" library="be_rcl" package="S_0805" value="2k2" x="13" y="13" smashed="yes">
+<attribute name="FUNCTION" value="" x="13" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="13" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="13" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="YES" x="13" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_2k2" x="13" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="UPDATED" value="" x="13" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11" y="10.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="11" y="9" size="1" layer="27" font="vector" ratio="13"/>
+</element>
+<element name="R102" library="be_rcl" package="S_0805" value="100" x="27" y="13" smashed="yes">
+<attribute name="FUNCTION" value="" x="27" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="27" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="27" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="YES" x="27" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_100" x="27" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="UPDATED" value="" x="27" y="13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25" y="10.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="25" y="9" size="1" layer="27" font="vector" ratio="13"/>
+</element>
+<element name="T101" library="be_transistor" package="S_SOT23" value="BCW60D" x="20" y="12" smashed="yes" rot="R270">
+<attribute name="FUNCTION" value="" x="20" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="20" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="20" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="BOM" value="YES" x="20" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="T_PAC_S_SOT23_VAL_BCW60D" x="20" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="UPDATED" value="" x="20" y="12" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="18" y="8.5" size="1" layer="25" font="vector" ratio="13"/>
+<attribute name="VALUE" x="18" y="7" size="1" layer="27" font="vector" ratio="13"/>
+</element>
+<element name="X101" library="be_con_jump" package="T_WIRE_CLAMP_1X2_PITCH_2MM5" value="CLAMP_1X2-T-2.5MM" x="43.38" y="11.87" smashed="yes" rot="R90">
+<attribute name="FUNCTION" value="LED DRV OUT" x="38.67" y="15.22" size="1" layer="21" font="vector" ratio="15"/>
+<attribute name="PART_CODE_EXT" value="" x="43.38" y="11.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COMMISSIONED" value="2014-04-14" x="43.38" y="11.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="BOM" value="YES" x="43.38" y="11.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_CLAMP_1X2_PITCH_2mm5" x="43.38" y="11.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="UPDATED" value="" x="43.38" y="11.87" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.33" y="9.92" size="1" layer="25" font="vector" ratio="15" rot="R90"/>
+</element>
+<element name="X201" library="be_con_jump" package="T_MALE_2X1_VERTICAL_PITCH_2MM54" value="MALE_2X1-T-VERTICAL" x="5" y="11" smashed="yes">
+<attribute name="FUNCTION" value="LED DRV IN" x="2" y="15" size="1" layer="21" font="vector" ratio="15" rot="SR270"/>
+<attribute name="PART_CODE_EXT" value="" x="5" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="COMMISSIONED" value="2013-08-30" x="5" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="YES" x="5" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X1_VERTICAL_PITCH_2mm54" x="5" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="UPDATED" value="2018-08-01" x="5" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="7" y="12.57" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
+</element>
+<element name="U$5" library="be_frame" package="A4_LANDSCAPE" value="" x="-165" y="-46"/>
+<element name="FD301" library="be_marks" package="CROSSHAIR" value="FIDUCIAL_CROSSHAIR" x="38" y="5">
+<attribute name="FUNCTION" value="" x="38" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="38" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="COMMISSIONED" value="2013-12-03" x="38" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="BOM" value="NO" x="38" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_BEL" value="" x="38" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="UPDATED" value="" x="38" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="FD302" library="be_marks" package="CROSSHAIR" value="FIDUCIAL_CROSSHAIR" x="4" y="45">
+<attribute name="FUNCTION" value="" x="4" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="4" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="COMMISSIONED" value="2013-12-03" x="4" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="BOM" value="NO" x="4" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_BEL" value="" x="4" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="UPDATED" value="" x="4" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="H301" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="45" y="45">
+<attribute name="FUNCTION" value="" x="45" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="45" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="COMMISSIONED" value="2015-01-15" x="45" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="BOM" value="NO" x="45" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_BEL" value="" x="45" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="UPDATED" value="" x="45" y="45" size="1" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="H302" library="be_holes" package="3.2_PAD" value="HOLE_3.2_PAD" x="45" y="5">
+<attribute name="FUNCTION" value="" x="45" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_EXT" value="" x="45" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="COMMISSIONED" value="2015-01-15" x="45" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="BOM" value="NO" x="45" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PART_CODE_BEL" value="" x="45" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="UPDATED" value="" x="45" y="5" size="1" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="X301" library="be_con_jump" package="T_WIRE_CLAMP_1X2_PITCH_2MM5" value="CLAMP_1X2-T-2.5MM" x="21" y="42" smashed="yes" rot="R180">
+<attribute name="FUNCTION" value="PWR IN" x="24.4" y="44.8" size="1" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="PART_CODE_EXT" value="" x="21" y="42" size="1" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="COMMISSIONED" value="2014-04-14" x="21" y="42" size="1" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="BOM" value="YES" x="21" y="42" size="1" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_CLAMP_1X2_PITCH_2mm5" x="21" y="42" size="1" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="UPDATED" value="" x="21" y="42" size="1" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="NAME" x="23.95" y="35.95" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
+</element>
+</elements>
+<signals>
+<signal name="P5V">
+<contactref element="C101" pad="+"/>
+<wire x1="13.28" y1="19.41" x2="13.28" y2="19" width="0.254" layer="1"/>
+<wire x1="13.28" y1="19" x2="14" y2="19" width="0.254" layer="1"/>
+<wire x1="13.28" y1="19.41" x2="13.28" y2="18.6" width="0.254" layer="1"/>
+<wire x1="13.28" y1="18.6" x2="15" y2="18.6" width="0.254" layer="1"/>
+<via x="15" y="18.6" extent="1-16" drill="0.3"/>
+<wire x1="14" y1="19" x2="14" y2="20.2" width="0.15" layer="1"/>
+<wire x1="14" y1="20.2" x2="15" y2="20.2" width="0.15" layer="1"/>
+<via x="15" y="20.2" extent="1-16" drill="0.3"/>
+<contactref element="X101" pad="1"/>
+<contactref element="X301" pad="2"/>
+<polygon width="0.15" layer="2">
+<vertex x="11" y="50"/>
+<vertex x="50" y="50"/>
+<vertex x="50" y="7"/>
+<vertex x="11" y="7"/>
+</polygon>
+</signal>
+<signal name="GND">
+<contactref element="T101" pad="2"/>
+<contactref element="C101" pad="-"/>
+<contactref element="X201" pad="1"/>
+<wire x1="8.28" y1="19.41" x2="8.28" y2="18.6" width="0.254" layer="1"/>
+<wire x1="8.28" y1="18.6" x2="6.6" y2="18.6" width="0.254" layer="1"/>
+<wire x1="8.28" y1="19.41" x2="8.28" y2="20.2" width="0.254" layer="1"/>
+<wire x1="8.28" y1="20.2" x2="6.6" y2="20.2" width="0.254" layer="1"/>
+<via x="6.6" y="20.2" extent="1-16" drill="0.3"/>
+<via x="6.6" y="18.6" extent="1-16" drill="0.3"/>
+<polygon width="0.15" layer="16">
+<vertex x="0" y="50"/>
+<vertex x="50" y="50"/>
+<vertex x="50" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<wire x1="18.9" y1="11.05" x2="18.9" y2="11" width="0.15" layer="1"/>
+<wire x1="18.9" y1="11" x2="17.6" y2="11" width="0.15" layer="1"/>
+<via x="17.6" y="11" extent="1-16" drill="0.3"/>
+<contactref element="X301" pad="1"/>
+</signal>
+<signal name="LED_DRV_2_IN">
+<contactref element="R101" pad="1"/>
+<contactref element="X201" pad="2"/>
+<wire x1="5" y1="12.27" x2="5.73" y2="13" width="0.15" layer="1"/>
+<wire x1="5.73" y1="13" x2="12.05" y2="13" width="0.15" layer="1"/>
+</signal>
+<signal name="LED_DRV_2_B">
+<contactref element="R101" pad="2"/>
+<contactref element="T101" pad="1"/>
+<wire x1="13.95" y1="13" x2="18.85" y2="13" width="0.15" layer="1"/>
+<wire x1="18.85" y1="13" x2="18.9" y2="12.95" width="0.15" layer="1"/>
+</signal>
+<signal name="LED_DRV_2_C">
+<contactref element="T101" pad="3"/>
+<contactref element="R102" pad="1"/>
+<wire x1="21.1" y1="12" x2="22.8" y2="12" width="0.15" layer="1"/>
+<wire x1="22.8" y1="12" x2="23.8" y2="13" width="0.15" layer="1"/>
+<wire x1="23.8" y1="13" x2="26.05" y2="13" width="0.15" layer="1"/>
+</signal>
+<signal name="LED_DRV_2_OUT">
+<contactref element="R102" pad="2"/>
+<contactref element="X101" pad="2"/>
+<wire x1="43.28" y1="13" x2="43.4" y2="13.12" width="0.15" layer="1"/>
+<wire x1="27.95" y1="13" x2="27.95" y2="13.12" width="0.15" layer="1"/>
+<wire x1="27.95" y1="13.12" x2="43.4" y2="13.12" width="0.15" layer="1"/>
+</signal>
+</signals>
+<errors>
+<approved hash="3,1,8c229acf6691707c"/>
+<approved hash="3,16,13269acf6695ef7c"/>
+<approved hash="19,1,0f3465ba233439b3"/>
+<approved hash="19,1,b4a639ece1b07984"/>
+</errors>
+</board>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
+</eagle>
