@@ -35,7 +35,8 @@
 
 arg_count=$#
 input_module=$1
-index=$2
+prefix=$2
+index=$3
 
 extension_sch=".sch"
 extension_brd=".brd"
@@ -43,15 +44,16 @@ extension_brd=".brd"
 
 proc_test_arguments()
 	{
-	if [ $arg_count -lt 2 ]; then
+	if [ $arg_count -lt 3 ]; then
 		{
-		echo "ERROR: Provide argument for input module and index !"
+		echo "ERROR: Provide argument for input module, prefix and index !"
 		echo "The input module must already have index '_1' like 'motor_driver_1.sch' ."
 		exit 1
 		}
 	else
 		{
 		echo "input module:" $input_module
+		echo "prefix      :" $prefix
 		echo "index       :" $index
 		}
 	fi
@@ -79,12 +81,12 @@ proc_copy()
 		# Compose the name of the new instantiated schematic file and create it.
 		# If it already exists then it will be overwritten without warning:
 		schematic_file=$generic_name"_"$index$extension_sch
-		cp $input_module_simple_name$extension_sch $schematic_file
+		#cp $input_module_simple_name$extension_sch $schematic_file
 
 		# Compose the name of the new instantiated board file and create it.
 		# If it already exists then it will be overwritten without warning:
 		board_file=$generic_name"_"$index$extension_brd
-		cp $input_module_simple_name$extension_brd $board_file		
+		#cp $input_module_simple_name$extension_brd $board_file		
 		}
 	else
 		{
@@ -93,14 +95,54 @@ proc_copy()
 	fi
 	}
 	
-proc_rename_nets()
+proc_make_schematic()
 	{
-	echo "renaming nets ..."
+	in_file=$input_module_simple_name$extension_sch
+	
+	header="<net name="
+	trailer="class"
+# 	echo "header:" $header
+	
+	prefix_length=${#prefix}
+# 	echo "prefix lenght:" $prefix_length
+# 	echo "renaming nets ..."
+	
+	while read line; do
+	
+		# extract net name from a line like: <net name="LED_DRV_1_IN" class="0">
+		if [ "${line:0:10}" = "$header" ]; then
+			# echo $line
+			net_name=${line:11}
+			# echo "net" $net_name
+		
+			l=${#net_name}
+			# echo $l
+			
+			for i in $( eval echo {0..$l} ) ; do
+				if [ "${net_name:i:5}" = "$trailer" ]; then
+					net_name=${net_name:0:i-2}
+					break
+				fi
+			done
+			
+			#echo "net" $net_name # LED_DRV_1_IN
+			
+			# The net name must be longer than the given prefix.
+			if [ "${#net_name}" -gt "$prefix_length" ]; then
+				echo "net" $net_name
+				
+				net_name_base=${net_name:$prefix_length}
+				echo $net_name_base
+			fi
+			
+		fi
+			
+	done < $in_file
 	}
 	
 proc_test_arguments
 proc_copy
-proc_rename_nets
+proc_make_schematic
 
 echo "generated files:"
 echo "schematic:" $schematic_file
