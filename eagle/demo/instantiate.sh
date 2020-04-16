@@ -58,6 +58,24 @@ proc_test_arguments()
 		echo "index in       :" $index_in
 		echo "index out      :" $index_out
 		
+		# The output index must not be zero or negative.
+		if [ "$index_in" -lt 1 ]; then
+			echo "ERROR: Output index must be a natural greater 1."
+			exit 1
+		fi
+
+		if [ "$index_out" -lt 1 ]; then
+			echo "ERROR: Input index must be a natural greater 1."
+			exit 1
+		fi
+
+		# The output index must not be equal the input index
+		# as this would result in overwriting the input module.
+		if [ "$index_out" = "$index_in" ]; then
+			echo "ERROR: Input and output index must not be equal."
+			exit 1
+		fi
+		
 		prefix_in_full=$prefix$separator$index_in
 		echo "prefix in full :" $prefix_in_full
 		
@@ -67,7 +85,7 @@ proc_test_arguments()
 	fi
 	}
 
-proc_copy()
+proc_make_file_names()
 	{
 	if [ -e $input_module ]; then
 		{
@@ -106,19 +124,26 @@ proc_copy()
 	fi
 	}
 	
-proc_line_not_changed()
+proc_sch_line_not_changed()
 	{
-	echo $@ >> $schematic_file	
+	echo $@ >> $schematic_file
 	}
-	
+
+proc_brd_line_not_changed()
+	{
+	echo $@ >> $board_file
+	}
 	
 proc_make_schematic()
 	{
+	echo "processing schematic ..."
 	in_file=$input_module_simple_name$extension_sch
 	
 	header="<net name="
 	trailer="class"
 # 	echo "header:" $header
+	header_length=${#header}
+# 	echo "header length:" $header_length
 	
 	prefix_length=${#prefix_in_full}
 # 	echo "prefix lenght:" $prefix_length
@@ -127,9 +152,9 @@ proc_make_schematic()
 	while read line; do
 	
 		# extract net name from a line like: <net name="LED_DRV_1_IN" class="0">
-		if [ "${line:0:10}" = "$header" ]; then
+		if [ "${line:0:header_length}" = "$header" ]; then
 			# echo $line
-			net_name=${line:11}
+			net_name=${line:header_length+1}
 			# echo "net" $net_name
 		
 			l=${#net_name}
@@ -163,32 +188,98 @@ proc_make_schematic()
 					
 						net_name_new=$prefix_out_full$net_name_root
 					
-						echo "renaming net" $net_name "to" $net_name_new
+						echo "- renaming net" $net_name "to" $net_name_new
 						
-						# Compose the new line to be written in the output file:
+						# Compose the new line to be written in the output file
+						# like <net name="LED_DRV_3_IN" class="0">
 						echo $header"\""$net_name_new"\"" $trailer_full >> $schematic_file
 					else
-						proc_line_not_changed $line
+						proc_sch_line_not_changed $line
 					fi
 				else
-					proc_line_not_changed $line
+					proc_sch_line_not_changed $line
 				fi
 			else
-				proc_line_not_changed $line
+				proc_sch_line_not_changed $line
 			fi
 		else
-			proc_line_not_changed $line
+			proc_sch_line_not_changed $line
 		fi
 			
 	done < $in_file
 	}
 	
+proc_make_board()
+	{
+	echo "processing board ..."
+	in_file=$input_module_simple_name$extension_brd
+	
+	header="<signal name="
+	header_length=${#header}
+	prefix_length=${#prefix_in_full}
+	
+	while read line; do
+
+		# extract net name from a line like: <signal name="LED_DRV_1_IN">
+		if [ "${line:0:header_length}" = "$header" ]; then
+			# echo $line
+			net_name=${line:header_length+1}
+			#echo "net" $net_name # LED_DRV_1_IN">
+		
+			l=${#net_name}
+			net_name=${net_name:0:l-2}
+			#echo "net" ${net_name:0:l-2} # LED_DRV_1_IN
+			
+			# The net name must be longer than the given prefix.
+			if [ "${#net_name}" -gt "$prefix_length" ]; then
+				#echo "net" $net_name # LED_DRV_1_IN
+				
+				# The net name must start with $prefix_in_full (like "LED_DRV_1")
+				if [ "${net_name:0:$prefix_length}" = "$prefix_in_full" ]; then
+					net_name_root=${net_name:$prefix_length}
+					#echo $net_name_root # _IN
+					
+					# The root name must start with a separator:
+					if [ "${net_name_root:0:1}" = "$separator" ]; then
+						#echo $net_name_root # _IN
+					
+						net_name_new=$prefix_out_full$net_name_root
+					
+						echo "- renaming net" $net_name "to" $net_name_new
+						
+						# Compose the new line to be written in the output file like
+						# <signal name="LED_DRV_3_IN">
+						echo $header"\""$net_name_new"\""">" >> $board_file
+					else
+						proc_brd_line_not_changed $line
+					fi
+				else
+					proc_brd_line_not_changed $line
+				fi
+			else
+				proc_brd_line_not_changed $line
+			fi
+		else
+			proc_brd_line_not_changed $line
+		fi
+		
+	done < $in_file
+	}
+	
 proc_test_arguments
-proc_copy
+proc_make_file_names
 proc_make_schematic
+proc_make_board
 
 echo "generated files:"
 echo "schematic:" $schematic_file
 echo "board    :" $board_file
 
 exit
+
+# Soli Deo Gloria
+
+# For God so loved the world that he gave 
+# his one and only Son, that whoever believes in him 
+# shall not perish but have eternal life.
+# The Bible, John 3.16
